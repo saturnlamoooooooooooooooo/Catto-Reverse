@@ -4,6 +4,11 @@ A full static teardown of a "normal-looking" GameMaker horror game that reaches 
 it opens Notepad, drops text files on the Desktop, locks and teleports the mouse, hides and shakes its
 own window, intercepts the close button, and (via helper games) changes the Windows wallpaper.
 
+**Links**
+
+* Game page (GameJolt): <https://gamejolt.com/games/Cat/1104230>
+* Gameplay video (IShowSpeed, YouTube): <https://www.youtube.com/watch?v=ZsZLCnsCrIs>
+
 **Verdict.** The game does what its `readme.txt` says, and a bit more than that readme admits. It is a
 scripted "meta-horror" game, not a virus: no network code, no persistence keys, no self-copying, no
 Task Manager/shutdown tricks. It is, however, *intrusive*: the full list of effects is in
