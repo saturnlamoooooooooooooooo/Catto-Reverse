@@ -1,0 +1,88 @@
+EXTN chunk: 3 extension(s)
+
+[0] extension 'WinDev'  folder=''  class=''
+  file 'GMS-WinDev.dll'  kind=1  init=''  cleanup=''
+    delay                              -> dll export 'delay'  ret=real  args=(real)  id=1 kind=12
+    shell_execute                      -> dll export 'shell_execute'  ret=real  args=(string, string)  id=2 kind=12
+    shell_do                           -> dll export 'shell_do'  ret=real  args=(string, string)  id=3 kind=12
+    shell_execute_at                   -> dll export 'shell_execute_at'  ret=real  args=(string, string, string)  id=4 kind=12
+    file_text_get                      -> dll export 'file_text_get'  ret=string  args=(string)  id=5 kind=12
+    file_text_put                      -> dll export 'file_text_put'  ret=real  args=(string, string)  id=6 kind=12
+    window_set_caption_ext             -> dll export 'window_set_caption_ext'  ret=real  args=(real, string)  id=7 kind=12
+    get_color_win                      -> dll export 'get_color_win'  ret=real  args=(real)  id=8 kind=12
+    file_copy_win                      -> dll export 'file_copy_win'  ret=real  args=(string, string)  id=9 kind=12
+    shell_do_at                        -> dll export 'shell_do_at'  ret=real  args=(string, string, string)  id=10 kind=12
+    shell_do_ext                       -> dll export 'shell_do_ext'  ret=real  args=(string, string, string, string)  id=11 kind=12
+
+[1] extension 'DialogModule'  folder=''  class=''
+  file 'DialogModule.dll'  kind=1  init=''  cleanup=''
+    show_message                       -> dll export 'show_message'  ret=real  args=(string)  id=12 kind=12
+    show_question                      -> dll export 'show_question'  ret=real  args=(string)  id=13 kind=12
+    show_error                         -> dll export 'show_error'  ret=real  args=(string, real)  id=14 kind=12
+    get_string                         -> dll export 'get_string'  ret=string  args=(string, string)  id=15 kind=12
+    get_password                       -> dll export 'get_password'  ret=string  args=(string, string)  id=16 kind=12
+    get_integer                        -> dll export 'get_integer'  ret=real  args=(string, real)  id=17 kind=12
+    get_passcode                       -> dll export 'get_passcode'  ret=real  args=(string, real)  id=18 kind=12
+    get_open_filename                  -> dll export 'get_open_filename'  ret=string  args=(string, string)  id=19 kind=12
+    get_open_filename_ext              -> dll export 'get_open_filename_ext'  ret=string  args=(string, string, string, string)  id=20 kind=12
+    get_open_filenames                 -> dll export 'get_open_filenames'  ret=string  args=(string, string)  id=21 kind=12
+    get_open_filenames_ext             -> dll export 'get_open_filenames_ext'  ret=string  args=(string, string, string, string)  id=22 kind=12
+    get_save_filename                  -> dll export 'get_save_filename'  ret=string  args=(string, string)  id=23 kind=12
+    get_save_filename_ext              -> dll export 'get_save_filename_ext'  ret=string  args=(string, string, string, string)  id=24 kind=12
+    get_directory                      -> dll export 'get_directory'  ret=string  args=(string)  id=25 kind=12
+    get_directory_alt                  -> dll export 'get_directory_alt'  ret=string  args=(string, string)  id=26 kind=12
+    get_color                          -> dll export 'get_color'  ret=real  args=(real)  id=27 kind=12
+    get_color_ext                      -> dll export 'get_color_ext'  ret=real  args=(real, string)  id=28 kind=12
+    show_message_cancelable            -> dll export 'show_message_cancelable'  ret=real  args=(string)  id=29 kind=12
+    show_question_cancelable           -> dll export 'show_question_cancelable'  ret=real  args=(string)  id=30 kind=12
+    widget_get_system                  -> dll export 'widget_get_system'  ret=string  args=()  id=31 kind=12
+    widget_set_system                  -> dll export 'widget_set_system'  ret=real  args=(string)  id=32 kind=12
+    show_attempt                       -> dll export 'show_attempt'  ret=real  args=(string)  id=33 kind=12
+    widget_get_caption                 -> dll export 'widget_get_caption'  ret=string  args=()  id=34 kind=12
+    widget_set_caption                 -> dll export 'widget_set_caption'  ret=real  args=(string)  id=35 kind=12
+    widget_get_owner                   -> dll export 'widget_get_owner'  ret=string  args=()  id=36 kind=12
+    widget_set_owner                   -> dll export 'widget_set_owner'  ret=real  args=(string)  id=37 kind=12
+    widget_get_icon                    -> dll export 'widget_get_icon'  ret=string  args=()  id=38 kind=12
+    widget_set_icon                    -> dll export 'widget_set_icon'  ret=real  args=(string)  id=39 kind=12
+    show_message_async                 -> dll export 'show_message_async'  ret=real  args=(string)  id=40 kind=12
+    show_question_async                -> dll export 'show_question_async'  ret=real  args=(string)  id=41 kind=12
+    show_error_async                   -> dll export 'show_error_async'  ret=real  args=(string, real)  id=42 kind=12
+    get_string_async                   -> dll export 'get_string_async'  ret=real  args=(string, string)  id=43 kind=12
+    get_password_async                 -> dll export 'get_password_async'  ret=real  args=(string, string)  id=44 kind=12
+    get_integer_async                  -> dll export 'get_integer_async'  ret=real  args=(string, real)  id=45 kind=12
+    get_passcode_async                 -> dll export 'get_passcode_async'  ret=real  args=(string, real)  id=46 kind=12
+    get_open_filename_async            -> dll export 'get_open_filename_async'  ret=real  args=(string, string)  id=47 kind=12
+    get_open_filename_ext_async        -> dll export 'get_open_filename_ext_async'  ret=real  args=(string, string, string, string)  id=48 kind=12
+    get_open_filenames_async           -> dll export 'get_open_filenames_async'  ret=real  args=(string, string)  id=49 kind=12
+    get_open_filenames_ext_async       -> dll export 'get_open_filenames_ext_async'  ret=real  args=(string, string, string, string)  id=50 kind=12
+    get_save_filename_async            -> dll export 'get_save_filename_async'  ret=real  args=(string, string)  id=51 kind=12
+    get_save_filename_ext_async        -> dll export 'get_save_filename_ext_async'  ret=real  args=(string, string, string, string)  id=52 kind=12
+    get_directory_async                -> dll export 'get_directory_async'  ret=real  args=(string)  id=53 kind=12
+    get_directory_alt_async            -> dll export 'get_directory_alt_async'  ret=real  args=(string, string)  id=54 kind=12
+    get_color_async                    -> dll export 'get_color_async'  ret=real  args=(real)  id=55 kind=12
+    get_color_ext_async                -> dll export 'get_color_ext_async'  ret=real  args=(real, string)  id=56 kind=12
+    show_message_cancelable_async      -> dll export 'show_message_cancelable_async'  ret=real  args=(string)  id=57 kind=12
+    show_question_cancelable_async     -> dll export 'show_question_cancelable_async'  ret=real  args=(string)  id=58 kind=12
+    show_attempt_async                 -> dll export 'show_attempt_async'  ret=real  args=(string)  id=59 kind=12
+    RegisterCallbacks                  -> dll export 'RegisterCallbacks'  ret=real  args=(string, string, string, string)  id=60 kind=12
+    widget_get_button_name             -> dll export 'widget_get_button_name'  ret=string  args=(real)  id=61 kind=1
+    widget_set_button_name             -> dll export 'widget_set_button_name'  ret=real  args=(real, string)  id=62 kind=1
+
+[2] extension 'window_command_hook'  folder=''  class=''
+  file 'window_command_hook.dll'  kind=1  init=''  cleanup='window_command_cleanup'
+    window_command_run_raw             -> dll export 'window_command_run_raw'  ret=real  args=(string, real, real)  id=63 kind=11
+    window_command_cleanup             -> dll export 'window_command_cleanup'  ret=real  args=()  id=64 kind=11
+    window_command_init_raw            -> dll export 'window_command_init_raw'  ret=real  args=(string)  id=65 kind=11
+    window_command_bind_raw            -> dll export 'window_command_bind_raw'  ret=real  args=(string)  id=66 kind=11
+    window_command_hook_raw            -> dll export 'window_command_hook_raw'  ret=real  args=(string, real)  id=67 kind=11
+    window_command_unhook_raw          -> dll export 'window_command_unhook_raw'  ret=real  args=(real)  id=68 kind=11
+    window_command_get_active_raw      -> dll export 'window_command_get_active_raw'  ret=real  args=(string, real)  id=69 kind=11
+    window_command_set_active_raw      -> dll export 'window_command_set_active_raw'  ret=real  args=(string, real, real)  id=70 kind=11
+    window_command_check               -> dll export 'window_command_check'  ret=real  args=(real)  id=71 kind=1
+    window_set_topmost_raw             -> dll export 'window_set_topmost_raw'  ret=real  args=(string, real)  id=72 kind=11
+    window_set_visible_raw             -> dll export 'window_set_visible_raw'  ret=real  args=(string, real)  id=73 kind=11
+    window_get_background_redraw       -> dll export 'window_get_background_redraw'  ret=real  args=()  id=74 kind=1
+    window_set_background_redraw_raw   -> dll export 'window_set_background_redraw_raw'  ret=real  args=(string, real)  id=75 kind=11
+    window_get_taskbar_button_visible_raw -> dll export 'window_get_taskbar_button_visible_raw'  ret=real  args=(string)  id=76 kind=11
+    window_set_taskbar_button_visible_raw -> dll export 'window_set_taskbar_button_visible_raw'  ret=real  args=(string, real)  id=77 kind=11
+  file 'window_command_hook.gml'  kind=2  init=''  cleanup=''

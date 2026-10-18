@@ -1,0 +1,12 @@
+{
+  "command": "<path-to>/venv/Scripts/idalib-mcp.exe",
+  "args": [
+    "--stdio",
+    "--max-workers",
+    "1"
+  ],
+  "mode": "headless",
+  "env": {
+    "IDADIR": "C:\\Program Files\\IDA Professional 9.3"
+  }
+}

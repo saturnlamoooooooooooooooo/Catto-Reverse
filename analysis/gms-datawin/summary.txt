@@ -1,0 +1,51 @@
+file            data.win  (62,381,632 bytes)
+game name       Catto_Boi_Journey
+display name    Catto Boi: Journey to Catto Land
+version         2.0.0.0
+bytecode ver    17
+window          1280x720
+debug build     True
+timestamp       2021-07-22 12:15:14Z
+strings         1781
+sprites         83
+backgrounds     8
+fonts           7
+sounds          42
+code entries    600
+scripts         55
+objects         161
+rooms           52
+extensions      3
+functions       149
+variables       778
+
+chunks:
+  GEN8  offset=0x00000010  length=416
+  OPTN  offset=0x000001b8  length=88
+  LANG  offset=0x00000218  length=24
+  EXTN  offset=0x00000238  length=2,904
+  SOND  offset=0x00000d98  length=1,688
+  AGRP  offset=0x00001438  length=24
+  SPRT  offset=0x00001458  length=5,362,360
+  BGND  offset=0x0051e718  length=1,256
+  PATH  offset=0x0051ec08  length=104
+  SCPT  offset=0x0051ec78  length=664
+  GLOB  offset=0x0051ef18  length=104
+  SHDR  offset=0x0051ef88  length=3,544
+  FONT  offset=0x0051fd68  length=27,640
+  TMLN  offset=0x00526968  length=8
+  OBJT  offset=0x00526978  length=69,864
+  ACRV  offset=0x00537a68  length=8
+  SEQN  offset=0x00537a78  length=8
+  TAGS  offset=0x00537a88  length=24
+  ROOM  offset=0x00537aa8  length=1,212,824
+  DAFL  offset=0x0065fc48  length=8
+  EMBI  offset=0x0065fc58  length=8
+  TPAG  offset=0x0065fc68  length=5,912
+  TGIN  offset=0x00661388  length=488
+  CODE  offset=0x00661578  length=71,704
+  VARI  offset=0x00672d98  length=15,576
+  FUNC  offset=0x00676a78  length=11,336
+  STRG  offset=0x006796c8  length=68,664
+  TXTR  offset=0x0068a308  length=5,087,976
+  AUDO  offset=0x00b645f8  length=50,436,168

@@ -1,0 +1,20 @@
+// gml_Object_obj_NeedMorePrompt_Draw_0
+// 0 argument(s), 1 local(s)
+
+draw_set_font(1);
+if (global.Level == 4)
+{
+    draw_set_font(6);
+    scr_TextSmallXY("DIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIE", 255, 1, 0);
+}
+else
+{
+    if (global.TinyBisc == 25)
+    {
+        scr_TextSmallXY("You are free to go through!", 16777215, 1, 0);
+    }
+    else
+    {
+        scr_TextSmallXY("Collect " + string(25 - global.TinyBisc) + " more biscuits!", 16777215, 1, 0);
+    }
+}

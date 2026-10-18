@@ -1,0 +1,666 @@
+obj_Nug2  sprite=spr_Nug parent=- depth=0 visible=True solid=True persistent=False
+    gml_Object_obj_Nug2_Create_0
+    gml_Object_obj_Nug2_Collision_obj_PlayerControl
+    gml_Object_obj_Nug2_PreCreate_0
+obj_NeedMorePromptCatto2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_NeedMorePromptCatto2_Draw_0
+    gml_Object_obj_NeedMorePromptCatto2_PreCreate_0
+obj_BlackControl  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_BlackControl_Create_0
+    gml_Object_obj_BlackControl_Alarm_0
+    gml_Object_obj_BlackControl_PreCreate_0
+obj_StartControl  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_StartControl_Create_0
+    gml_Object_obj_StartControl_Alarm_0
+    gml_Object_obj_StartControl_Alarm_1
+    gml_Object_obj_StartControl_Alarm_2
+    gml_Object_obj_StartControl_Alarm_3
+    gml_Object_obj_StartControl_Alarm_4
+    gml_Object_obj_StartControl_PreCreate_0
+obj_CatFood  sprite=spr_CatFood parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CatFood_Create_0
+    gml_Object_obj_CatFood_Collision_obj_PlayerControl
+    gml_Object_obj_CatFood_PreCreate_0
+obj_Act6Dialog11  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog11_Draw_0
+    gml_Object_obj_Act6Dialog11_PreCreate_0
+obj_DialogAct3Control3  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DialogAct3Control3_Create_0
+    gml_Object_obj_DialogAct3Control3_Alarm_0
+    gml_Object_obj_DialogAct3Control3_Alarm_1
+    gml_Object_obj_DialogAct3Control3_Alarm_2
+    gml_Object_obj_DialogAct3Control3_Alarm_3
+    gml_Object_obj_DialogAct3Control3_Alarm_4
+    gml_Object_obj_DialogAct3Control3_Alarm_5
+    gml_Object_obj_DialogAct3Control3_Alarm_6
+    gml_Object_obj_DialogAct3Control3_Alarm_7
+    gml_Object_obj_DialogAct3Control3_Alarm_8
+    gml_Object_obj_DialogAct3Control3_PreCreate_0
+obj_Creep  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Creep_Create_0
+    gml_Object_obj_Creep_Alarm_0
+    gml_Object_obj_Creep_PreCreate_0
+par_Collectibles  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_par_Collectibles_PreCreate_0
+obj_Act5Dialog8  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act5Dialog8_Draw_0
+    gml_Object_obj_Act5Dialog8_PreCreate_0
+obj_SpookyBoi2  sprite=spr_SpookyBoi parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_SpookyBoi2_Create_0
+    gml_Object_obj_SpookyBoi2_Alarm_0
+    gml_Object_obj_SpookyBoi2_Step_0
+    gml_Object_obj_SpookyBoi2_PreCreate_0
+obj_Jumpscare  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Jumpscare_Create_0
+    gml_Object_obj_Jumpscare_Alarm_0
+    gml_Object_obj_Jumpscare_Alarm_1
+    gml_Object_obj_Jumpscare_Alarm_2
+    gml_Object_obj_Jumpscare_PreCreate_0
+obj_WallTrap  sprite=spr_Wall parent=obj_CollisionBlock depth=0 visible=True solid=True persistent=False
+    gml_Object_obj_WallTrap_Step_0
+    gml_Object_obj_WallTrap_PreCreate_0
+obj_DialogAct6Control1  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DialogAct6Control1_Create_0
+    gml_Object_obj_DialogAct6Control1_Alarm_0
+    gml_Object_obj_DialogAct6Control1_Alarm_1
+    gml_Object_obj_DialogAct6Control1_Alarm_2
+    gml_Object_obj_DialogAct6Control1_Alarm_3
+    gml_Object_obj_DialogAct6Control1_Alarm_4
+    gml_Object_obj_DialogAct6Control1_Alarm_5
+    gml_Object_obj_DialogAct6Control1_Alarm_6
+    gml_Object_obj_DialogAct6Control1_Alarm_7
+    gml_Object_obj_DialogAct6Control1_Alarm_8
+    gml_Object_obj_DialogAct6Control1_PreCreate_0
+obj_Act3Dialog9  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act3Dialog9_Draw_0
+    gml_Object_obj_Act3Dialog9_PreCreate_0
+obj_ThankYouText  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_ThankYouText_Draw_0
+    gml_Object_obj_ThankYouText_PreCreate_0
+obj_Act6Dialog5  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog5_Draw_0
+    gml_Object_obj_Act6Dialog5_PreCreate_0
+obj_TriggerJumpscare  sprite=spr_Trigger parent=par_Triggers depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_TriggerJumpscare_Collision_obj_PlayerControl
+    gml_Object_obj_TriggerJumpscare_PreCreate_0
+obj_CattoTitleAct1Catto1  sprite=spr_CattoTitleAct1Catto1 parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CattoTitleAct1Catto1_Create_0
+    gml_Object_obj_CattoTitleAct1Catto1_PreCreate_0
+obj_TriggerSpookBoi  sprite=spr_Trigger parent=par_Triggers depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_TriggerSpookBoi_Collision_obj_PlayerControl
+    gml_Object_obj_TriggerSpookBoi_PreCreate_0
+obj_TextTitleAct1Catto1  sprite=spr_TitleTextAct1Catto1 parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_TextTitleAct1Catto1_Create_0
+    gml_Object_obj_TextTitleAct1Catto1_PreCreate_0
+obj_Version  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Version_Draw_0
+    gml_Object_obj_Version_PreCreate_0
+obj_Act6Dialog12  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog12_Draw_0
+    gml_Object_obj_Act6Dialog12_PreCreate_0
+obj_StartControl2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_StartControl2_Create_0
+    gml_Object_obj_StartControl2_Alarm_1
+    gml_Object_obj_StartControl2_Alarm_2
+    gml_Object_obj_StartControl2_Alarm_3
+    gml_Object_obj_StartControl2_Alarm_4
+    gml_Object_obj_StartControl2_Alarm_5
+    gml_Object_obj_StartControl2_Other_63
+    gml_Object_obj_StartControl2_PreCreate_0
+obj_CattoTitle  sprite=spr_CattoTitle parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CattoTitle_Create_0
+    gml_Object_obj_CattoTitle_PreCreate_0
+obj_PlayerDie  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_PlayerDie_Create_0
+    gml_Object_obj_PlayerDie_Step_0
+    gml_Object_obj_PlayerDie_PreCreate_0
+obj_TitleMenuCatto1  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_TitleMenuCatto1_Create_0
+    gml_Object_obj_TitleMenuCatto1_Step_0
+    gml_Object_obj_TitleMenuCatto1_Draw_0
+    gml_Object_obj_TitleMenuCatto1_PreCreate_0
+obj_DialogAct5Control2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DialogAct5Control2_Create_0
+    gml_Object_obj_DialogAct5Control2_Alarm_0
+    gml_Object_obj_DialogAct5Control2_Alarm_1
+    gml_Object_obj_DialogAct5Control2_Alarm_2
+    gml_Object_obj_DialogAct5Control2_Alarm_3
+    gml_Object_obj_DialogAct5Control2_Alarm_4
+    gml_Object_obj_DialogAct5Control2_Alarm_5
+    gml_Object_obj_DialogAct5Control2_Alarm_6
+    gml_Object_obj_DialogAct5Control2_Alarm_7
+    gml_Object_obj_DialogAct5Control2_Alarm_8
+    gml_Object_obj_DialogAct5Control2_PreCreate_0
+obj_Act5Dialog9  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act5Dialog9_Draw_0
+    gml_Object_obj_Act5Dialog9_PreCreate_0
+obj_SprGlassBreak2  sprite=spr_Glass2 parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_SprGlassBreak2_PreCreate_0
+obj_SprGlassBreak1  sprite=spr_Glass1 parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_SprGlassBreak1_PreCreate_0
+obj_CattoWakeUpDialog  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CattoWakeUpDialog_Draw_0
+    gml_Object_obj_CattoWakeUpDialog_PreCreate_0
+obj_TitleMenuFUCKED  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_TitleMenuFUCKED_Create_0
+    gml_Object_obj_TitleMenuFUCKED_Step_0
+    gml_Object_obj_TitleMenuFUCKED_Draw_0
+    gml_Object_obj_TitleMenuFUCKED_PreCreate_0
+obj_Act6Dialog14  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog14_Draw_0
+    gml_Object_obj_Act6Dialog14_PreCreate_0
+obj_BigBoiHelpCatto2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_BigBoiHelpCatto2_Draw_0
+    gml_Object_obj_BigBoiHelpCatto2_PreCreate_0
+obj_DebugMenu  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DebugMenu_Create_0
+    gml_Object_obj_DebugMenu_Step_0
+    gml_Object_obj_DebugMenu_Draw_0
+    gml_Object_obj_DebugMenu_PreCreate_0
+obj_ThankYouControl  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_ThankYouControl_Create_0
+    gml_Object_obj_ThankYouControl_Alarm_0
+    gml_Object_obj_ThankYouControl_Alarm_1
+    gml_Object_obj_ThankYouControl_PreCreate_0
+obj_DialogAct3Control1  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DialogAct3Control1_Create_0
+    gml_Object_obj_DialogAct3Control1_Alarm_0
+    gml_Object_obj_DialogAct3Control1_Alarm_1
+    gml_Object_obj_DialogAct3Control1_Alarm_2
+    gml_Object_obj_DialogAct3Control1_PreCreate_0
+obj_Credits  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Credits_Create_0
+    gml_Object_obj_Credits_Alarm_0
+    gml_Object_obj_Credits_Step_0
+    gml_Object_obj_Credits_Draw_0
+    gml_Object_obj_Credits_PreCreate_0
+obj_CloseHandler  sprite=- parent=- depth=0 visible=False solid=False persistent=True
+    gml_Object_obj_CloseHandler_Create_0
+    gml_Object_obj_CloseHandler_Alarm_0
+    gml_Object_obj_CloseHandler_Alarm_1
+    gml_Object_obj_CloseHandler_Alarm_2
+    gml_Object_obj_CloseHandler_Step_0
+    gml_Object_obj_CloseHandler_PreCreate_0
+obj_Act6Dialog10  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog10_Draw_0
+    gml_Object_obj_Act6Dialog10_PreCreate_0
+obj_TextSpam  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_TextSpam_Create_0
+    gml_Object_obj_TextSpam_Alarm_0
+    gml_Object_obj_TextSpam_Alarm_1
+    gml_Object_obj_TextSpam_PreCreate_0
+obj_BANGING  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_BANGING_Create_0
+    gml_Object_obj_BANGING_Alarm_0
+    gml_Object_obj_BANGING_Alarm_1
+    gml_Object_obj_BANGING_PreCreate_0
+obj_Pit  sprite=spr_Pit parent=par_Triggers depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_Pit_Alarm_0
+    gml_Object_obj_Pit_Alarm_1
+    gml_Object_obj_Pit_Collision_obj_PlayerControl
+    gml_Object_obj_Pit_PreCreate_0
+obj_Spikes  sprite=spr_Spikes parent=par_Triggers depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Spikes_Collision_obj_PlayerControl
+    gml_Object_obj_Spikes_PreCreate_0
+obj_TitleMenu  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_TitleMenu_Create_0
+    gml_Object_obj_TitleMenu_Step_0
+    gml_Object_obj_TitleMenu_Draw_0
+    gml_Object_obj_TitleMenu_PreCreate_0
+obj_Wait  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Wait_Create_0
+    gml_Object_obj_Wait_Alarm_0
+    gml_Object_obj_Wait_PreCreate_0
+obj_CattoTitleCatto2  sprite=spr_CattoTitleCatto2 parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CattoTitleCatto2_Create_0
+    gml_Object_obj_CattoTitleCatto2_PreCreate_0
+obj_DialogControl  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DialogControl_Create_0
+    gml_Object_obj_DialogControl_Alarm_0
+    gml_Object_obj_DialogControl_Alarm_1
+    gml_Object_obj_DialogControl_Alarm_2
+    gml_Object_obj_DialogControl_Alarm_3
+    gml_Object_obj_DialogControl_PreCreate_0
+obj_DiedDialog  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DiedDialog_Draw_0
+    gml_Object_obj_DiedDialog_PreCreate_0
+obj_Act3Dialog4  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act3Dialog4_Draw_0
+    gml_Object_obj_Act3Dialog4_PreCreate_0
+obj_TriggerRevelation  sprite=spr_Trigger parent=par_Triggers depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_TriggerRevelation_Collision_obj_PlayerControl
+    gml_Object_obj_TriggerRevelation_PreCreate_0
+obj_ChaseTrigger  sprite=spr_Trigger parent=par_Triggers depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_ChaseTrigger_Collision_obj_PlayerControl
+    gml_Object_obj_ChaseTrigger_PreCreate_0
+obj_ControlsHintCatto1  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_ControlsHintCatto1_Draw_0
+    gml_Object_obj_ControlsHintCatto1_PreCreate_0
+obj_LogoTitleCatto2  sprite=spr_LogoTitleCatto2 parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_LogoTitleCatto2_Create_0
+    gml_Object_obj_LogoTitleCatto2_PreCreate_0
+obj_Time  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Time_Create_0
+    gml_Object_obj_Time_Draw_64
+    gml_Object_obj_Time_PreCreate_0
+par_Triggers  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_par_Triggers_PreCreate_0
+obj_test  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_test_Create_0
+    gml_Object_obj_test_Draw_0
+    gml_Object_obj_test_PreCreate_0
+obj_Act5Dialog7  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act5Dialog7_Draw_0
+    gml_Object_obj_Act5Dialog7_PreCreate_0
+obj_WakeUp  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_WakeUp_Create_0
+    gml_Object_obj_WakeUp_Alarm_0
+    gml_Object_obj_WakeUp_Alarm_1
+    gml_Object_obj_WakeUp_Alarm_2
+    gml_Object_obj_WakeUp_Alarm_3
+    gml_Object_obj_WakeUp_PreCreate_0
+obj_example  sprite=spr_example parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_example_Create_0
+    gml_Object_obj_example_Alarm_0
+    gml_Object_obj_example_Other_63
+    gml_Object_obj_example_PreCreate_0
+obj_TriggerSpookBoi2  sprite=spr_Trigger parent=par_Triggers depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_TriggerSpookBoi2_Collision_obj_PlayerControl
+    gml_Object_obj_TriggerSpookBoi2_PreCreate_0
+obj_CattoWakeUpDialog3  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CattoWakeUpDialog3_Draw_0
+    gml_Object_obj_CattoWakeUpDialog3_PreCreate_0
+obj_AfterNug1  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_AfterNug1_Create_0
+    gml_Object_obj_AfterNug1_Alarm_0
+    gml_Object_obj_AfterNug1_Alarm_1
+    gml_Object_obj_AfterNug1_Alarm_2
+    gml_Object_obj_AfterNug1_PreCreate_0
+obj_LogoTitle  sprite=spr_LogoTitle parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_LogoTitle_Create_0
+    gml_Object_obj_LogoTitle_PreCreate_0
+obj_NeedMorePromptCatto1  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_NeedMorePromptCatto1_Draw_0
+    gml_Object_obj_NeedMorePromptCatto1_PreCreate_0
+obj_Act5Dialog5  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act5Dialog5_Draw_0
+    gml_Object_obj_Act5Dialog5_PreCreate_0
+obj_CarefulHintCatto2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CarefulHintCatto2_Draw_0
+    gml_Object_obj_CarefulHintCatto2_PreCreate_0
+obj_Act3Dialog2Trigger  sprite=spr_Trigger parent=- depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_Act3Dialog2Trigger_Collision_obj_PlayerControl
+    gml_Object_obj_Act3Dialog2Trigger_PreCreate_0
+obj_CattoBoiDie  sprite=spr_CattoDie parent=obj_PlayerDie depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CattoBoiDie_Create_0
+    gml_Object_obj_CattoBoiDie_Step_0
+    gml_Object_obj_CattoBoiDie_PreCreate_0
+obj_ScreenBreak  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_ScreenBreak_Create_0
+    gml_Object_obj_ScreenBreak_Alarm_0
+    gml_Object_obj_ScreenBreak_Alarm_1
+    gml_Object_obj_ScreenBreak_Alarm_2
+    gml_Object_obj_ScreenBreak_Alarm_3
+    gml_Object_obj_ScreenBreak_Step_0
+    gml_Object_obj_ScreenBreak_PreCreate_0
+obj_Pearl  sprite=spr_Pearl parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Pearl_Collision_obj_PlayerControl
+    gml_Object_obj_Pearl_PreCreate_0
+obj_MouseLock  sprite=- parent=- depth=0 visible=True solid=False persistent=True
+    gml_Object_obj_MouseLock_Step_0
+    gml_Object_obj_MouseLock_PreCreate_0
+obj_Act5Dialog4  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act5Dialog4_Draw_0
+    gml_Object_obj_Act5Dialog4_PreCreate_0
+obj_ShakeTrigger  sprite=spr_Trigger parent=par_Triggers depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_ShakeTrigger_Collision_obj_PlayerControl
+    gml_Object_obj_ShakeTrigger_PreCreate_0
+obj_Spook  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Spook_Create_0
+    gml_Object_obj_Spook_Alarm_0
+    gml_Object_obj_Spook_PreCreate_0
+obj_DialogSpam  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DialogSpam_Create_0
+    gml_Object_obj_DialogSpam_Alarm_0
+    gml_Object_obj_DialogSpam_Alarm_1
+    gml_Object_obj_DialogSpam_PreCreate_0
+obj_DialogTest  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DialogTest_Create_0
+    gml_Object_obj_DialogTest_Alarm_0
+    gml_Object_obj_DialogTest_Other_63
+    gml_Object_obj_DialogTest_PreCreate_0
+obj_CattoTitleFUCKED  sprite=spr_CattoTitleFUCKED parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CattoTitleFUCKED_Create_0
+    gml_Object_obj_CattoTitleFUCKED_PreCreate_0
+obj_Act6Dialog2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog2_Draw_0
+    gml_Object_obj_Act6Dialog2_PreCreate_0
+obj_BigBoiDialog  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_BigBoiDialog_Draw_0
+    gml_Object_obj_BigBoiDialog_PreCreate_0
+obj_SprHands  sprite=spr_HANDS parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_SprHands_PreCreate_0
+obj_Act3Dialog8  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act3Dialog8_Draw_0
+    gml_Object_obj_Act3Dialog8_PreCreate_0
+obj_Act3Dialog1  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act3Dialog1_Draw_0
+    gml_Object_obj_Act3Dialog1_PreCreate_0
+obj_LogoTitleFUCKED  sprite=spr_LogoTitleFUCKED parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_LogoTitleFUCKED_Create_0
+    gml_Object_obj_LogoTitleFUCKED_PreCreate_0
+obj_Understood  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Understood_Create_0
+    gml_Object_obj_Understood_Alarm_0
+    gml_Object_obj_Understood_Alarm_1
+    gml_Object_obj_Understood_PreCreate_0
+obj_Act6Dialog6  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog6_Draw_0
+    gml_Object_obj_Act6Dialog6_PreCreate_0
+obj_Nug1  sprite=spr_Nug parent=- depth=0 visible=True solid=True persistent=False
+    gml_Object_obj_Nug1_Create_0
+    gml_Object_obj_Nug1_Collision_obj_PlayerControl
+    gml_Object_obj_Nug1_PreCreate_0
+obj_BlackBoi2  sprite=spr_BlackBoi parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_BlackBoi2_Create_0
+    gml_Object_obj_BlackBoi2_Alarm_0
+    gml_Object_obj_BlackBoi2_Collision_obj_PlayerControl
+    gml_Object_obj_BlackBoi2_Other_0
+    gml_Object_obj_BlackBoi2_PreCreate_0
+obj_DialogAct5Control1  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DialogAct5Control1_Create_0
+    gml_Object_obj_DialogAct5Control1_Alarm_0
+    gml_Object_obj_DialogAct5Control1_Alarm_1
+    gml_Object_obj_DialogAct5Control1_Alarm_2
+    gml_Object_obj_DialogAct5Control1_Alarm_3
+    gml_Object_obj_DialogAct5Control1_PreCreate_0
+obj_Freeze  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Freeze_Create_0
+    gml_Object_obj_Freeze_Alarm_0
+    gml_Object_obj_Freeze_Step_0
+    gml_Object_obj_Freeze_PreCreate_0
+obj_SpookyBoi  sprite=spr_SpookyBoi parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_SpookyBoi_Create_0
+    gml_Object_obj_SpookyBoi_Alarm_0
+    gml_Object_obj_SpookyBoi_Step_0
+    gml_Object_obj_SpookyBoi_PreCreate_0
+obj_AfterShake  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_AfterShake_Create_0
+    gml_Object_obj_AfterShake_Alarm_0
+    gml_Object_obj_AfterShake_Alarm_1
+    gml_Object_obj_AfterShake_PreCreate_0
+obj_Act6Dialog09  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog09_Draw_0
+    gml_Object_obj_Act6Dialog09_PreCreate_0
+obj_Act3Dialog3  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act3Dialog3_Draw_0
+    gml_Object_obj_Act3Dialog3_PreCreate_0
+obj_Died  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Died_Create_0
+    gml_Object_obj_Died_Alarm_0
+    gml_Object_obj_Died_Alarm_1
+    gml_Object_obj_Died_Alarm_2
+    gml_Object_obj_Died_PreCreate_0
+obj_Act5Dialog6  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act5Dialog6_Draw_0
+    gml_Object_obj_Act5Dialog6_PreCreate_0
+obj_DebugTitle  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DebugTitle_Create_0
+    gml_Object_obj_DebugTitle_Draw_0
+    gml_Object_obj_DebugTitle_PreCreate_0
+obj_MusicControl  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_MusicControl_Other_4
+    gml_Object_obj_MusicControl_PreCreate_0
+obj_Revelation  sprite=spr_CattoStand parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Revelation_Create_0
+    gml_Object_obj_Revelation_Alarm_0
+    gml_Object_obj_Revelation_PreCreate_0
+obj_Act3Dialog5  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act3Dialog5_Draw_0
+    gml_Object_obj_Act3Dialog5_PreCreate_0
+obj_PlayerControl  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_PlayerControl_Create_0
+    gml_Object_obj_PlayerControl_Step_0
+    gml_Object_obj_PlayerControl_Collision_obj_Pit
+    gml_Object_obj_PlayerControl_Other_4
+    gml_Object_obj_PlayerControl_PreCreate_0
+obj_BigBoi  sprite=spr_BigBoi parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_BigBoi_Create_0
+    gml_Object_obj_BigBoi_PreCreate_0
+obj_HUD  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_HUD_Create_0
+    gml_Object_obj_HUD_Draw_64
+    gml_Object_obj_HUD_PreCreate_0
+obj_Act6Dialog07  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog07_Draw_0
+    gml_Object_obj_Act6Dialog07_PreCreate_0
+obj_PlayerSpawn  sprite=spr_PlayerSpawn parent=- depth=0 visible=False solid=False persistent=False
+    gml_Object_obj_PlayerSpawn_Create_0
+    gml_Object_obj_PlayerSpawn_Other_4
+    gml_Object_obj_PlayerSpawn_PreCreate_0
+obj_CollisionBlock  sprite=spr_CollisionBlock parent=- depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_CollisionBlock_PreCreate_0
+obj_Act5Dialog3  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act5Dialog3_Draw_0
+    gml_Object_obj_Act5Dialog3_PreCreate_0
+obj_Entity  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Entity_Create_0
+    gml_Object_obj_Entity_Alarm_0
+    gml_Object_obj_Entity_Alarm_1
+    gml_Object_obj_Entity_Alarm_2
+    gml_Object_obj_Entity_PreCreate_0
+obj_Locked  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Locked_Create_0
+    gml_Object_obj_Locked_Draw_0
+    gml_Object_obj_Locked_PreCreate_0
+obj_NeedMorePrompt  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_NeedMorePrompt_Draw_0
+    gml_Object_obj_NeedMorePrompt_PreCreate_0
+obj_Ending  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Ending_Create_0
+    gml_Object_obj_Ending_Alarm_0
+    gml_Object_obj_Ending_PreCreate_0
+obj_Act5Dialog1  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act5Dialog1_Draw_0
+    gml_Object_obj_Act5Dialog1_PreCreate_0
+obj_ChaseControl  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_ChaseControl_Create_0
+    gml_Object_obj_ChaseControl_Alarm_0
+    gml_Object_obj_ChaseControl_PreCreate_0
+obj_DialogAct6Control2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DialogAct6Control2_Create_0
+    gml_Object_obj_DialogAct6Control2_Alarm_0
+    gml_Object_obj_DialogAct6Control2_Alarm_1
+    gml_Object_obj_DialogAct6Control2_Alarm_2
+    gml_Object_obj_DialogAct6Control2_Alarm_3
+    gml_Object_obj_DialogAct6Control2_Alarm_4
+    gml_Object_obj_DialogAct6Control2_Alarm_5
+    gml_Object_obj_DialogAct6Control2_Alarm_6
+    gml_Object_obj_DialogAct6Control2_Alarm_7
+    gml_Object_obj_DialogAct6Control2_Alarm_8
+    gml_Object_obj_DialogAct6Control2_Alarm_9
+    gml_Object_obj_DialogAct6Control2_Alarm_10
+    gml_Object_obj_DialogAct6Control2_Alarm_11
+    gml_Object_obj_DialogAct6Control2_PreCreate_0
+obj_ToLoadScreen  sprite=spr_Next parent=par_Transitions depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_ToLoadScreen_Alarm_0
+    gml_Object_obj_ToLoadScreen_Collision_obj_PlayerControl
+    gml_Object_obj_ToLoadScreen_PreCreate_0
+obj_NextRoom  sprite=spr_Next2 parent=par_Transitions depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_NextRoom_Alarm_0
+    gml_Object_obj_NextRoom_Collision_obj_PlayerControl
+    gml_Object_obj_NextRoom_PreCreate_0
+obj_CrashTrigger  sprite=spr_Trigger parent=par_Triggers depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_CrashTrigger_Collision_obj_PlayerControl
+    gml_Object_obj_CrashTrigger_PreCreate_0
+obj_Timer2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Timer2_Create_0
+    gml_Object_obj_Timer2_Alarm_0
+    gml_Object_obj_Timer2_PreCreate_0
+obj_MouseFuck  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_MouseFuck_Step_0
+    gml_Object_obj_MouseFuck_PreCreate_0
+obj_NextRoomNoFade  sprite=spr_Next3 parent=par_Transitions depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_NextRoomNoFade_Collision_obj_PlayerControl
+    gml_Object_obj_NextRoomNoFade_PreCreate_0
+obj_CattoBoi  sprite=spr_CattoStand parent=obj_PlayerControl depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CattoBoi_Create_0
+    gml_Object_obj_CattoBoi_Alarm_0
+    gml_Object_obj_CattoBoi_Step_0
+    gml_Object_obj_CattoBoi_PreCreate_0
+obj_Act6Dialog3  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog3_Draw_0
+    gml_Object_obj_Act6Dialog3_PreCreate_0
+obj_CattoBoiCrrupt  sprite=spr_CattoStandCrrupt parent=obj_PlayerControl depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CattoBoiCrrupt_Create_0
+    gml_Object_obj_CattoBoiCrrupt_Alarm_0
+    gml_Object_obj_CattoBoiCrrupt_PreCreate_0
+obj_CattoBoiDead  sprite=spr_CattoDeadStand parent=obj_PlayerControl depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CattoBoiDead_Create_0
+    gml_Object_obj_CattoBoiDead_Alarm_0
+    gml_Object_obj_CattoBoiDead_PreCreate_0
+obj_Act1Menu  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act1Menu_Create_0
+    gml_Object_obj_Act1Menu_Step_0
+    gml_Object_obj_Act1Menu_Draw_0
+    gml_Object_obj_Act1Menu_PreCreate_0
+obj_CarefulHintCatto1  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CarefulHintCatto1_Draw_0
+    gml_Object_obj_CarefulHintCatto1_PreCreate_0
+obj_GameOverText  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_GameOverText_Create_0
+    gml_Object_obj_GameOverText_Draw_64
+    gml_Object_obj_GameOverText_PreCreate_0
+obj_Act3Dialog2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act3Dialog2_Draw_0
+    gml_Object_obj_Act3Dialog2_PreCreate_0
+obj_FadeIn  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_FadeIn_Create_0
+    gml_Object_obj_FadeIn_Alarm_0
+    gml_Object_obj_FadeIn_Step_0
+    gml_Object_obj_FadeIn_Draw_64
+    gml_Object_obj_FadeIn_PreCreate_0
+obj_FadeOut  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_FadeOut_Create_0
+    gml_Object_obj_FadeOut_Alarm_0
+    gml_Object_obj_FadeOut_Step_0
+    gml_Object_obj_FadeOut_Draw_64
+    gml_Object_obj_FadeOut_PreCreate_0
+par_Transitions  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_par_Transitions_PreCreate_0
+obj_TitleMenuCatto2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_TitleMenuCatto2_Create_0
+    gml_Object_obj_TitleMenuCatto2_Step_0
+    gml_Object_obj_TitleMenuCatto2_Draw_0
+    gml_Object_obj_TitleMenuCatto2_PreCreate_0
+obj_LoadingScreen  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_LoadingScreen_Create_0
+    gml_Object_obj_LoadingScreen_Alarm_0
+    gml_Object_obj_LoadingScreen_Draw_0
+    gml_Object_obj_LoadingScreen_PreCreate_0
+obj_BigBoiCatto2  sprite=spr_BigBoi parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_BigBoiCatto2_Create_0
+    gml_Object_obj_BigBoiCatto2_PreCreate_0
+obj_Warning  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Warning_Create_0
+    gml_Object_obj_Warning_Draw_0
+    gml_Object_obj_Warning_KeyPress_13
+    gml_Object_obj_Warning_PreCreate_0
+obj_Act6Dialog08  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog08_Draw_0
+    gml_Object_obj_Act6Dialog08_PreCreate_0
+obj_EnterMenu  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_EnterMenu_Create_0
+    gml_Object_obj_EnterMenu_Step_0
+    gml_Object_obj_EnterMenu_Draw_64
+    gml_Object_obj_EnterMenu_PreCreate_0
+obj_GlobalVarMenu  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_GlobalVarMenu_Create_0
+    gml_Object_obj_GlobalVarMenu_Step_0
+    gml_Object_obj_GlobalVarMenu_Draw_0
+    gml_Object_obj_GlobalVarMenu_PreCreate_0
+obj_Biscuit  sprite=spr_Biscuit parent=par_Collectibles depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Biscuit_Collision_obj_PlayerControl
+    gml_Object_obj_Biscuit_PreCreate_0
+Looking_at_these_files_huh  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_Looking_at_these_files_huh_Create_0
+    gml_Object_Looking_at_these_files_huh_PreCreate_0
+obj_Act6Dialog1  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog1_Draw_0
+    gml_Object_obj_Act6Dialog1_PreCreate_0
+obj_Act5Dialog2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act5Dialog2_Draw_0
+    gml_Object_obj_Act5Dialog2_PreCreate_0
+obj_Shrine  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Shrine_Draw_0
+    gml_Object_obj_Shrine_PreCreate_0
+obj_BigBoiHelp  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_BigBoiHelp_Draw_0
+    gml_Object_obj_BigBoiHelp_PreCreate_0
+obj_BlackBoi  sprite=spr_BlackBoi parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_BlackBoi_Create_0
+    gml_Object_obj_BlackBoi_Alarm_0
+    gml_Object_obj_BlackBoi_Collision_obj_PlayerControl
+    gml_Object_obj_BlackBoi_Other_0
+    gml_Object_obj_BlackBoi_PreCreate_0
+obj_Act6Dialog13  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog13_Draw_0
+    gml_Object_obj_Act6Dialog13_PreCreate_0
+obj_LevelTitlePause  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_LevelTitlePause_Create_0
+    gml_Object_obj_LevelTitlePause_Draw_64
+    gml_Object_obj_LevelTitlePause_PreCreate_0
+obj_ScreenShake  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_ScreenShake_Create_0
+    gml_Object_obj_ScreenShake_Alarm_0
+    gml_Object_obj_ScreenShake_Step_0
+    gml_Object_obj_ScreenShake_Draw_64
+    gml_Object_obj_ScreenShake_PreCreate_0
+obj_GlobalVarTitle  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_GlobalVarTitle_Create_0
+    gml_Object_obj_GlobalVarTitle_Draw_0
+    gml_Object_obj_GlobalVarTitle_PreCreate_0
+obj_AfterNug2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_AfterNug2_Create_0
+    gml_Object_obj_AfterNug2_Alarm_0
+    gml_Object_obj_AfterNug2_Alarm_1
+    gml_Object_obj_AfterNug2_PreCreate_0
+obj_Act3Dialog6  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act3Dialog6_Draw_0
+    gml_Object_obj_Act3Dialog6_PreCreate_0
+obj_Timer  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Timer_Create_0
+    gml_Object_obj_Timer_Alarm_0
+    gml_Object_obj_Timer_PreCreate_0
+obj_Level4Trigger  sprite=spr_Trigger parent=par_Triggers depth=0 visible=False solid=True persistent=False
+    gml_Object_obj_Level4Trigger_Alarm_0
+    gml_Object_obj_Level4Trigger_Alarm_1
+    gml_Object_obj_Level4Trigger_Collision_obj_PlayerControl
+    gml_Object_obj_Level4Trigger_PreCreate_0
+obj_CattoWakeUpDialog2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_CattoWakeUpDialog2_Draw_0
+    gml_Object_obj_CattoWakeUpDialog2_PreCreate_0
+obj_Act1Title  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act1Title_Create_0
+    gml_Object_obj_Act1Title_Draw_0
+    gml_Object_obj_Act1Title_PreCreate_0
+obj_Act3Dialog7  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act3Dialog7_Draw_0
+    gml_Object_obj_Act3Dialog7_PreCreate_0
+obj_DialogAct3Control2  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_DialogAct3Control2_Create_0
+    gml_Object_obj_DialogAct3Control2_Alarm_0
+    gml_Object_obj_DialogAct3Control2_Alarm_1
+    gml_Object_obj_DialogAct3Control2_Alarm_2
+    gml_Object_obj_DialogAct3Control2_Alarm_3
+    gml_Object_obj_DialogAct3Control2_Alarm_4
+    gml_Object_obj_DialogAct3Control2_PreCreate_0
+obj_Act6Dialog4  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog4_Draw_0
+    gml_Object_obj_Act6Dialog4_PreCreate_0
+obj_Act6Dialog15  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Act6Dialog15_Draw_0
+    gml_Object_obj_Act6Dialog15_PreCreate_0
+obj_Black  sprite=- parent=- depth=0 visible=True solid=False persistent=False
+    gml_Object_obj_Black_Draw_64
+    gml_Object_obj_Black_PreCreate_0

@@ -1,0 +1,1781 @@
+     0: prototype
+     1: @@array@@
+     2: arguments
+     3: try.ini
+     4: file_exists
+     5: [keep]\ntrying = 0
+     6: ini_open_from_string
+     7: trying
+     8: keep
+     9: ini_read_real
+    10: tryCount
+    11: ini_close
+    12: ini_open
+    13: gml_Script_scr_CheckTry
+    14: method
+    15: scr_CheckTry
+    16: argument0
+    17: str
+    18: argument1
+    19: name
+    20: argument2
+    21: dir
+    22: \
+    23: file_text_open_write
+    24: file
+    25: file_text_write_string
+    26: file_text_close
+    27: gml_Script_scr_writeTextToDir
+    28: scr_writeTextToDir
+    29: windir
+    30: environment_get_variable
+    31: winDir
+    32: \temp\catto.cma
+    33: game_end
+    34: DIENOW
+    35: gml_Script_scr_OneProcess
+    36: scr_OneProcess
+    37: fakeEnd
+    38: hello.ini
+    39: progress
+    40: ini_write_real
+    41: gml_Script_scr_writeFakeEnd
+    42: scr_writeFakeEnd
+    43: xPos
+    44: argument3
+    45: yPos
+    46: y
+    47: x
+    48: draw_text_color
+    49: gml_Script_scr_TextXY
+    50: scr_TextXY
+    51: string
+    52: s
+    53: r
+    54: string_length
+    55: i
+    56: string_char_at
+    57: ord
+    58: c
+    59: gml_Script_hex_to_real
+    60: hex_to_real
+    61: trueEnded
+    62: Thank you 
+    63: Username
+    64: window_set_caption
+    65: Lives
+    66: Character
+    67: dreaming
+    68: hellStage
+    69: The Adventures of Catto Boi
+    70: Catto Boi's Bizarre Adventure
+    71: I'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRY
+    72: I'M SORRY
+    73: Catto Boi: Journey to Catto Land
+    74: audio_stop_all
+    75: depth
+    76: instance_create_depth
+    77: gml_Script_scr_InitMisc
+    78: scr_InitMisc
+    79: USERPROFILE
+    80: profile
+    81: \Desktop\
+    82: working_directory
+    83: workingDir
+    84: gml_Script_scr_writeTextFile
+    85: scr_writeTextFile
+    86: int64
+    87: stage
+    88: gml_Script_scr_writeHellStage
+    89: scr_writeHellStage
+    90: theEnd
+    91: gml_Script_scr_writeTrueEnd
+    92: scr_writeTrueEnd
+    93: instance_deactivate_object
+    94: view_camera
+    95: camera_get_view_x
+    96: _vx
+    97: camera_get_view_y
+    98: _vy
+    99: camera_get_view_width
+   100: _vw
+   101: camera_get_view_height
+   102: _vh
+   103: instance_activate_region
+   104: camx
+   105: camy
+   106: camh
+   107: camw
+   108: camera_set_view_pos
+   109: gml_Script_scr_Camera
+   110: scr_Camera
+   111: sky
+   112: water
+   113: water_1
+   114: background_1
+   115: background_2
+   116: background_3
+   117: background_4
+   118: background_5
+   119: layer_x
+   120: layer_y
+   121: gml_Script_scr_Parallax
+   122: scr_Parallax
+   123: gml_Script_scr_Text
+   124: scr_Text
+   125: gml_Script_scr_TextSmall
+   126: scr_TextSmall
+   127: gml_Script_scr_TextSmallXY
+   128: scr_TextSmallXY
+   129: [progress]\nstage = 0\nfakeEnd = 0\ntheEnd = 0
+   130: fakeEnded
+   131: gml_Script_scr_CheckState
+   132: scr_CheckState
+   133: USERNAME
+   134: randomize
+   135: room_goto
+   136: gml_Script_scr_writeTryCount
+   137: draw_set_font
+   138: RoomID
+   139: canMove
+   140: noMenu
+   141: 
+   142: levelName
+   143: Score
+   144: Level
+   145: Level1Passed
+   146: Level2Passed
+   147: Level3Passed
+   148: gml_Script_scr_Init
+   149: scr_Init
+   150: layer_force_draw_depth
+   151: draw_set_colour
+   152: gml_Script___init_global
+   153: __init_global
+   154: _x
+   155: _y
+   156: text
+   157: mouse_x
+   158: mouse_y
+   159: string_hash_to_newline
+   160: string_height
+   161: string_width
+   162: over
+   163: draw_set_color
+   164: draw_text
+   165: mouse_check_button_released
+   166: gml_Script_draw_tbutton
+   167: draw_tbutton
+   168: scr_writeTryCount
+   169: gml_Script_macros
+   170: macros
+   171: file_delete
+   172: gml_Script_scr_ExitGame
+   173: scr_ExitGame
+   174: nosound
+   175: title
+   176: catto2
+   177: titleFUCKED
+   178: debug
+   179: catto1
+   180: catto1title
+   181: hubDay
+   182: Hub - Daytime
+   183: catto2title
+   184: hub
+   185: audio_play_sound
+   186: hspeed
+   187: instance_destroy
+   188: event_inherited
+   189: Pearls
+   190: You are free to go through!
+   191: Collect 
+   192:  more pearls!
+   193: alarm
+   194: window_set_fullscreen
+   195: gml_Script_window_set_visible_w
+   196: eternal
+   197: widget_set_caption
+   198: you're back once again
+   199: show_message
+   200: I'm now in your world, 
+   201: just remember
+   202: I can do
+   203: whatever I want
+   204: whenever I want
+   205: I can do things like this:
+   206: \data\333.exe
+   207: open
+   208: shell_do
+   209: I can do far worse you know
+   210: don't cross the line with me 
+   211: CatFood
+   212: poor you...
+   213: and if you think you can stop me
+   214: you have no idea...
+   215: I could delete your entire fucking system and you wouldn't even realise
+   216: I'm not fucking around 
+   217: just you wait and see...
+   218: I AM IMMORTAL.txt
+   219: if you think deleting this game will end it all \nyou're wrong \nthere is NO ESCAPE FROM ME
+   220: /notepad.exe
+   221: shell_execute
+   222: illusion.txt
+   223: nothing is what it seems 
+   224: random
+   225: stop.... stop.... stop.... stop.... stop....
+   226: audio_pause_all
+   227: cam
+   228: view_x
+   229: view_y
+   230: audio_resume_all
+   231: audio_stop_sound
+   232: image_index
+   233: image_speed
+   234: @@This@@
+   235: TinyBisc
+   236: THAT'S ENOUGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+   237: Thank you for waking Catto up 
+   238: how sweet
+   239: path_end
+   240: path_start
+   241: ver. 1.2.1.0
+   242: and as for you 
+   243: eternity
+   244: progression
+   245: have you found it?
+   246: show_question_async
+   247: ret
+   248: I'll take your word for it...
+   249: just to test you, I'll ask you to put in the code in the following dialog box.
+   250: well done...
+   251: the following events will test your true potential
+   252: so you lied to me...
+   253: you truly are pathetic
+   254: id
+   255: async_load
+   256: ds_map_find_value
+   257: dialog
+   258: status
+   259: is_undefined
+   260: keep trying...
+   261: direction
+   262: grav
+   263: jumpspeed
+   264: movespeed
+   265: vsp
+   266: hsp
+   267: canselect
+   268: menu
+   269: keyboard_check_pressed
+   270: keyPressEnter
+   271: keyboard_check_released
+   272: keyReleaseEnter
+   273: keyPressUp
+   274: keyPressDown
+   275: Play
+   276: Exit game
+   277: enjoy your future 
+   278: What a horrible nightmare...
+   279: and there is nothing you can do \nto change it
+   280: Hi Catto Boi! \nCan you help me find my pearls? \nThey're scattered all over the place \nand I can't find them all myself!
+   281: rm_Act2Menu
+   282: rm_Act3Menu
+   283: rm_Act4Menu
+   284: rm_Act5Menu
+   285: rm_TitleScreen1
+   286: rm_TitleScreen2
+   287: rm_TitleScreen3
+   288: rm_TitleScreen4
+   289: Global variable settings
+   290: Act 1 menu
+   291: Act 2 menu
+   292: Act 3 menu
+   293: Act 4 menu
+   294: Act 5 menu
+   295: Exit back to main menu
+   296: vspeed
+   297: Titlescreen music: \n'Fukkireta (8-bit version)'\nby parupuncho
+   298: Act 1/Normal level music: \n'Door Into Summer (Knuckles Chaotix)'\nby Junko Shiratsu and Mariko Nanba
+   299: Act 2 music: \nLuna Game \nAnonymous creator
+   300: Act 2 ending music: \n'Title screen' (Decap Attack)\nby Fumito Tamayama
+   301: Act 5 music: \n'Boss (Bad Future)' (Sonic CD)\nby Spencer Nilsen and David Young
+   302: Act 5 hub night music: \n'Metro City (Night)' (Astro Boy (2003))
+   303: Act 6 hub day music: \n'Inventory' (Decap Attack)\nby Fumito Tamayama
+   304: keyboard_check_direct
+   305: keyAltF4
+   306: gml_Script_window_command_hook
+   307: gml_Script_window_command_set_active
+   308: I can't.... \ntake it anymore...
+   309: increment
+   310: I'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRY
+   311: .txt
+   312: I'MSORRYIREALLYAM \nIT'SALLMYFAULT \nJUSTENDITALLLLLLLLLLLLLL \nI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRY \nI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRY \nI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRY \nI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRY \nI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRY \nI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRY \nI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRYI'MSORRY
+   313: room_restart
+   314: Start
+   315: Info
+   316: Exit
+   317: \readme.txt
+   318: he finally died...
+   319: it is never over Catto
+   320: Use left and right arrow keys to move,\nand up key to jump.
+   321: month
+   322: current_month
+   323: January
+   324: February
+   325: March
+   326: April
+   327: May
+   328: June
+   329: July
+   330: August
+   331: September
+   332: October
+   333: November
+   334: December
+   335: date_current_datetime
+   336: date_time_string
+   337: current_day
+   338:  
+   339: current_year
+   340: game_save_id
+   341: game_save_path
+   342: /
+   343: string_copy
+   344: d
+   345: delay(3000)
+   346: delay
+   347: explore
+   348: test.txt
+   349: f
+   350: Hello World!
+   351: \test.txt
+   352: WINDIR
+   353: file_text_put
+   354: date_datetime_string
+   355: \WinDev.txt
+   356: file_text_get
+   357: Contents: 
+   358: get_color_win
+   359: __background_get_colour
+   360: __background_set_colour
+   361: window_set_caption_ext
+   362: !!
+   363: window_handle
+   364: copy_file_win
+   365: All files (*.*)|*.*
+   366: get_open_filename
+   367: path
+   368: .copy
+   369: newpath
+   370: file_copy_win
+   371: Copied successfully!
+   372: Coldn't copy the file.
+   373: you know what this means, don't you?
+   374: widget_set_owner
+   375: Sprite Images (*.png *.gif *.jpg *.jpeg)|*.png;*.gif;*.jpg;*.jpeg|Background Images (*.png)|*.png|All Files (*.*)|*.*
+   376: filter
+   377: dlg
+   378: DialogModule
+   379: show_message_async
+   380: show_message_cancelable_async
+   381: Yes or no?
+   382: Yes, no, or cancel?
+   383: show_question_cancelable_async
+   384: Error
+   385: show_attempt_async
+   386: show_error_async
+   387: Enter a string:
+   388: get_string_async
+   389: Enter a string password:
+   390: get_password_async
+   391: Enter an integer:
+   392: get_integer_async
+   393: Enter an integer passcode:
+   394: get_passcode_async
+   395: Select a File
+   396: get_open_filename_async
+   397: Open Ext
+   398: get_open_filename_ext_async
+   399: Select Files
+   400: get_open_filenames_async
+   401: get_open_filenames_ext_async
+   402: Untitled.png
+   403: get_save_filename_async
+   404: Save As Ext
+   405: get_save_filename_ext_async
+   406: get_directory_async
+   407: Select Directory Alt
+   408: get_directory_alt_async
+   409: get_color_async
+   410: os_type
+   411: Colors Ext
+   412: Color Ext
+   413: get_color_ext_async
+   414: value
+   415: number
+   416: result
+   417: I want to forget that horrible \nnightmare I just had...
+   418: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+   419: \data\777.exe
+   420: punish.txt
+   421: catto is now gone \nthere is no hope anymore \nhe said he'd do far worse and now look
+   422:  more cat biscuits!
+   423: now I know who stopped me last time....
+   424: Be careful not to fall down!
+   425: rand
+   426: display_mouse_set
+   427: please.... \nI want this to stop...
+   428: \data\999.exe
+   429: \WHY.txt
+   430: no more.txt
+   431: no more
+   432: so
+   433: what's the code?
+   434: 64 65 61 64
+   435: I'm.... \nnot.... \ngoing to let you.... \nwin....
+   436: Hi Catto Boi! \nHaven't seen you in a while! \nHow's it going?
+   437: Good morning Catto! \nMy friend lost their pearls again and I was \nabout to ask you to find them but \nmy friend found them anyway!
+   438: you're constantly bragging about \nhow big and powerful you are
+   439: where am I?
+   440: what if this was all just a dream...?
+   441: what if I'm ok...?
+   442: ?
+   443: am I ok...?
+   444: I feel like I'm waking up...
+   445: nothing you do will change anything
+   446: image_xscale
+   447: touched
+   448: hey.txt
+   449: hey \nremember me?
+   450: sprite_index
+   451: shader_reset
+   452: I AM IMMORTAL
+   453: I AM IMMORTAL I AM IMMORTAL I AM IMMORTAL I AM IMMORTAL I AM IMMORTAL I AM IMMORTAL I AM IMMORTAL I AM IMMORTAL 
+   454: I feel weak
+   455: I thought it was over
+   456: PLEEAAAAASSSSSSSEEEEEEEEEEEEEEE
+   457: Secret debug menu
+   458: why do you keep doing this to me?
+   459: keyup
+   460: keyreleaseup
+   461: keyboard_check
+   462: keyleft
+   463: keyright
+   464: keyenter
+   465: keyaction
+   466: instance_deactivate_all
+   467: move
+   468: place_meeting
+   469: place_free
+   470: soundJump
+   471: sign
+   472: spriteRun
+   473: spriteStand
+   474: spriteJump
+   475: actionPerform
+   476: actionSound
+   477: actionAudioDuration
+   478: spriteAction
+   479: spriteAction2
+   480: playerDeath
+   481: PearlTotal
+   482: FoodTotal
+   483: TinyTotal
+   484: draw_sprite
+   485: x 
+   486: just accept your fate
+   487: YOU KNOW EXACTLY WHAT I MEAN
+   488: sorry.txt
+   489: I sabotaged everything \nI'm so sorry \nI didn't think he would see me... \nI didn't think he would notice... \nI'M SORRYYYYYYYYYYYYYYYYYYYYYYYYYY
+   490: really.txt
+   491: He has finally won 
+   492: \nI can't do anything anymore \nThere is no escape anymore
+   493: WHY.txt
+   494: I'm sorry...
+   495: \sorry.txt
+   496: \really.txt
+   497: \temp\1.cma
+   498: \temp\2.cma
+   499: 0/2
+   500: 1/2
+   501: DIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIE
+   502:  more biscuits!
+   503: who the fuck was that?
+   504: room_goto_next
+   505: it can't be over can it.txt
+   506: can't \nkeep \ntrying \ngetting \nweaker \nguilt \nshame
+   507: hah... \nbreaking news:
+   508: rm_RedCrash
+   509: Go to Level 1 - Spring Hills
+   510: Go to Level 2 - Sunset Side
+   511: Go to Level 3 - Winter Sky
+   512: Test fake crash
+   513: Exit back to debug menu
+   514: Be careful, if you fall off one of these plaforms\nyou'll need to start over! Press Enter and\nselect 'Restart room' to start over.
+   515: draw_set_alpha
+   516: room_height
+   517: room_width
+   518: draw_rectangle
+   519: GAME OVER...
+   520: what's happening to me
+   521: disappear
+   522: alpha
+   523: Level 1 - Spring Hills
+   524: Level 1 - 
+   525: Hub - Nighttime
+   526: Level 2 - Pyramid Scheme
+   527: Level 3 - Catto Land
+   528: Level 666 - DIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIE
+   529: Level 1 - Mountain Range
+   530: Tip: Catto Boi is a good and loyal boi.
+   531: message1
+   532: Tip: Cats have 9 lives.
+   533: message2
+   534: Tip: Where am I?
+   535: message3
+   536: Tip: If the game crashes, it's not over.
+   537: message4
+   538: Tip: I feel like I'm dreaming...
+   539: message5
+   540: Tip: Press CTRL to make Catto meow!
+   541: message6
+   542: No mission for today! You're all done.
+   543: mission
+   544: No mission for today yet.
+   545: Mission: DIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIE
+   546: Mission: Why do I keep losing my biscuits?
+   547: Mission: Find Big Boi's friends' biscuits!
+   548: Mission: Find Big Boi's biscuits!
+   549: Tip: DIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIE
+   550: chosenMessage
+   551: choose
+   552: DIEDIEDIEDIEDIEDIEDIEDIEDIEIEDIEDIEDIEDIEDIEDIEDIEDIE
+   553: Loading...
+   554: Warning!
+   555: This game has loud sounds and flashing images that \nmay trigger epileptic seizures. Don't be a stupid boy and play this \ngame unless you want to die from brain explosion
+   556: Music belongs to SEGA and Nintendo, sound effects are \nroyalty-free (I think?)
+   557: Thanks for playing!
+   558: this game is not what you think it is \nit is up to you to finish what you started
+   559: Press Enter to continue.
+   560: åŒãÃƒÆ’¢â‚¬Å¡€šÂ£ÌÉÏÔËÁÆÌÉÏÔËÁÆáÒÚÑÂÙпя╟╨╬╥▐п╠▀šðèæžŠÐÈŽSm¶rg¥sÚÑÂÙпяÖóÞ¢ñëÒÚÑÂÙпÖóÞ¢ñëÒÚÑÂÙп╟╨╬
+   561: �æ–‡åŒãÃƒÆ’¢â‚¬Å¡€åŒãÃƒÆ’ÖóÞ¢ñëÒÚÑÂÙпя╟╨╬╥▐£ÌÉÏÔËÁÆáÖóÙs∂в√•»¿Ø§яЛПипя╟╨╬╥▐£ÌÉÏÔËпя╟╨╬╥▐£ÌÉÏÔË
+   562: I'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRYI'M SORRY
+   563: there is nothing more you can do
+   564: instance_activate_all
+   565: Resume
+   566: Restart room
+   567: Go to main menu
+   568: Ended state: 
+   569: ended
+   570: Room ID: 
+   571: Current act (from 0 - 4): 
+   572: Working directory: 
+   573: User directory: 
+   574: Total score: 
+   575: you just won't give up will you?
+   576: what do you mean...
+   577: this shrine is dedicated \nto JakeTheDAWG and his \nholy greatness :P
+   578: My friend lost all \ntheir biscuits too! \nReally sorry to bother you \nbut can you find them?
+   579: I'm sorry Catto...
+   580: DIEDIEDIEDIEDIEDIEDIEDIEDIE\nDIEDIEDIEDIEDIEDIEDIEDIEDIE
+   581: It's me again, Catto! \nI lost all my biscuits. \nI keep dropping them! Can you \nfind them for me?
+   582: listentome.txt
+   583: I tried to help last time \nbut I couldn't \nand I'm sorry \nbut this time it will be different \nI'll help you stop him once and for all \nI don't want to run away...
+   584: your fate has been decided
+   585: window_get_x
+   586: win_x
+   587: window_get_y
+   588: win_y
+   589: random_range
+   590: window_set_position
+   591: shader_set
+   592: deja vu?
+   593: feel familiar to you?
+   594: I know it's familiar to me
+   595: find me.txt
+   596: there is a file hidden within your C: drive that contains a piece of code \nthis code is needed to finish what you've started \nas I said, there is no rush, take all the time you need \nand don't ask for help unless it's really necessary
+   597: C:\XYZ123\HELLO
+   598: WELL DONE.txt
+   599: look at your desktop, I dropped another little text file for you
+   600: this time you're on your own - take your time, there is no rush
+   601: once you're done, come back and we'll make further arrangements on how this should end
+   602: i enjoy seeing you suffer
+   603: keep trying.txt
+   604: keep trying
+   605: DIEDIEDIEDIEDIEDIE.txt
+   606: DIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIE
+   607: I should go outside and see \nwhat my friends are up to!
+   608: and I enjoy seeing 
+   609:  suffer too
+   610: local catto boi refuses to die!
+   611: and I ALSO want to know how \nthey blew the whistle on \neverything
+   612: window_command_hook_raw
+   613: window_command_unhook_raw
+   614: argument
+   615: wp
+   616: argument_count
+   617: lp
+   618: window_command_run_raw
+   619: window_command_get_active_raw
+   620: window_command_set_active_raw
+   621: window_set_topmost_raw
+   622: window_set_visible_raw
+   623: window_set_background_redraw_raw
+   624: window_set_taskbar_button_visible_raw
+   625: window_get_taskbar_button_visible_raw
+   626: Catto Boi Journey
+   627: Default
+   628: Catto_Boi_Journey
+   629: @@SleepMargin
+   630: 10
+   631: @@DrawColour
+   632: 4294967295
+   633: WinDev
+   634: GMS-WinDev.dll
+   635: shell_execute_at
+   636: shell_do_at
+   637: shell_do_ext
+   638: DialogModule.dll
+   639: show_question
+   640: show_error
+   641: get_string
+   642: get_password
+   643: get_integer
+   644: get_passcode
+   645: get_open_filename_ext
+   646: get_open_filenames
+   647: get_open_filenames_ext
+   648: get_save_filename
+   649: get_save_filename_ext
+   650: get_directory
+   651: get_directory_alt
+   652: get_color
+   653: get_color_ext
+   654: show_message_cancelable
+   655: show_question_cancelable
+   656: widget_get_system
+   657: widget_set_system
+   658: show_attempt
+   659: widget_get_caption
+   660: widget_get_owner
+   661: widget_get_icon
+   662: widget_set_icon
+   663: RegisterCallbacks
+   664: widget_get_button_name
+   665: widget_set_button_name
+   666: window_command_hook
+   667: window_command_hook.dll
+   668: window_command_cleanup
+   669: window_command_init_raw
+   670: window_command_bind_raw
+   671: window_command_check
+   672: window_get_background_redraw
+   673: window_command_hook.gml
+   674: snd_DebugMenu
+   675: snd_DebugMenu.mp3
+   676: snd_ReverseMusic
+   677: snd_ReverseMusic.wav
+   678: snd_TitleScreenFUCKED
+   679: snd_TitleScreenFUCKED.wav
+   680: snd_Heartbeats
+   681: snd_Heartbeats.wav
+   682: snd_Banging
+   683: snd_Banging.wav
+   684: snd_TitleScreenCatto2
+   685: snd_TitleScreenCatto2.mp3
+   686: snd_GameOver
+   687: snd_GameOver.mp3
+   688: snd_Whispers
+   689: snd_Whispers.wav
+   690: snd_Dunnn
+   691: snd_Dunnn.wav
+   692: snd_Jumpscare
+   693: snd_Jumpscare.wav
+   694: snd_Crack
+   695: snd_Crack.wav
+   696: snd_EccoJrPassword
+   697: snd_HubDay
+   698: snd_HubDay.wav
+   699: snd_Screaming
+   700: snd_Screaming.wav
+   701: snd_Darkness
+   702: snd_Darkness.mp3
+   703: snd_NormalLevelCatto2
+   704: snd_NormalLevelCatto2.mp3
+   705: snd_Low
+   706: snd_Low.wav
+   707: snd_TestSnd
+   708: snd_TitleScreenCatto1
+   709: snd_TitleScreen
+   710: snd_TitleScreen.wav
+   711: snd_Squish
+   712: snd_Squish.mp3
+   713: snd_TitleScreenBad
+   714: snd_Meow
+   715: snd_Meow.wav
+   716: snd_WHATTHEFUCK
+   717: snd_WHATTHEFUCK.wav
+   718: snd_NormalLevel
+   719: snd_NormalLevel.mp3
+   720: snd_CattoJump
+   721: snd_CattoJump.wav
+   722: snd_Select
+   723: snd_Select1
+   724: snd_Collect
+   725: snd_Collect.wav
+   726: snd_CollectFinal
+   727: snd_CollectFinal.wav
+   728: snd_Glitching
+   729: snd_Glitching.wav
+   730: snd_LoadingScreenCatto2
+   731: snd_LoadingScreenCatto2.mp3
+   732: snd_Nug
+   733: snd_Nug.wav
+   734: snd_Oof
+   735: snd_Oof.wav
+   736: snd_CattoJumpCorrupt
+   737: snd_CattoJumpCorrupt.wav
+   738: snd_GlassCrash
+   739: snd_GlassCrash.wav
+   740: snd_Tone
+   741: snd_Tone.wav
+   742: snd_WiiCrash
+   743: snd_WiiCrash.wav
+   744: snd_Piano
+   745: snd_Piano.wav
+   746: snd_Hub
+   747: snd_Hub.mp3
+   748: snd_LoadingScreen
+   749: snd_LoadingScreen.mp3
+   750: snd_Static
+   751: snd_Static.wav
+   752: audiogroup_default
+   753: spr_purpClouds2
+   754: GMSpriteFramesTrack
+   755: frames
+   756: spr_CollisionBlock
+   757: spr_CatFood
+   758: spr_Next
+   759: spr_City
+   760: spr_Bricks
+   761: spr_Next2
+   762: spr_Next3
+   763: spr_BlackBoi
+   764: spr_purpClouds1
+   765: spr_PalmtreeBad
+   766: spr_PlayerSpawn
+   767: spr_CattoDiee
+   768: spr_CattoStand
+   769: spr_CattoRun
+   770: spr_SignRight
+   771: spr_Clouds2Catto2
+   772: spr_CattoJumpMeow
+   773: spr_Palmtree
+   774: spr_Pyramids
+   775: spr_CattoJump
+   776: spr_CattoStandCrrupt
+   777: spr_CattoRunCrrupt
+   778: spr_BackTitleAct1Catto1
+   779: spr_CattoJumpCrrupt
+   780: spr_CattoDeadStand
+   781: spr_goldClouds2
+   782: spr_TitleTextAct1Catto1
+   783: spr_Eg
+   784: spr_CattoDeadRun
+   785: spr_PitDark
+   786: spr_CattoDeadJump
+   787: spr_darkBlueClouds1
+   788: spr_CattoDie
+   789: spr_Pearl
+   790: spr_goldSky
+   791: spr_Spikes
+   792: spr_BlackBoiRun
+   793: spr_Spook
+   794: spr_Glass1
+   795: spr_Clouds2Catto1
+   796: spr_Wall
+   797: spr_blueSky
+   798: spr_LogoTitle
+   799: spr_blueSkyCatto2
+   800: spr_blueSkyCatto1
+   801: spr_Bed
+   802: spr_darkBlueClouds2
+   803: spr_LogoTitleFUCKED
+   804: spr_HUD
+   805: spr_CattoLand
+   806: spr_CattoMeow
+   807: spr_HANDS
+   808: spr_CattoTitleCatto2
+   809: spr_SpookyBoi
+   810: spr_Trigger
+   811: spr_goldClouds1
+   812: spr_Clouds1Catto1
+   813: spr_Biscuit
+   814: spr_CattoTitleAct1Catto1
+   815: spr_Glass2
+   816: spr_HUDCatto2
+   817: spr_Mountains
+   818: spr_darkBlueSky
+   819: spr_House
+   820: spr_Clouds1
+   821: spr_CattoLandFucked
+   822: spr_Clouds1Catto2
+   823: spr_purpSky
+   824: spr_HUDCatto1
+   825: spr_Dawg
+   826: spr_Blood
+   827: spr_Flowers
+   828: spr_CattoTitleFUCKED
+   829: spr_Clouds2
+   830: spr_CattoTitle
+   831: spr_Nug
+   832: spr_example
+   833: spr_BigBoi
+   834: spr_Window
+   835: spr_LogoTitleCatto2
+   836: spr_Pit
+   837: spr_SignLeft
+   838: tle_GroundDark
+   839: tle_GroundCatto1
+   840: tle_ArrowsCatto1
+   841: tle_Ground
+   842: tle_Ground2
+   843: tle_GroundWTF
+   844: tle_Arrows
+   845: tle_Ground3
+   846: pth_CattoTitle
+   847: pth_TextTitle
+   848: gml_Script_window_command_init
+   849: gml_Script_window_command_unhook
+   850: gml_Script_window_command_run
+   851: gml_Script_window_command_get_active
+   852: gml_Script_window_set_topmost
+   853: gml_Script_window_set_background_redraw
+   854: gml_Script_window_set_taskbar_button_visible
+   855: gml_Script_window_get_taskbar_button_visible
+   856: sha_Tint
+   857: #define LOWPREC lowp\n#define	MATRIX_VIEW 					0\n#define	MATRIX_PROJECTION 				1\n#define	MATRIX_WORLD 					2\n#define	MATRIX_WORLD_VIEW 				3\n#define	MATRIX_WORLD_VIEW_PROJECTION 	4\n#define	MATRICES_MAX					5\n\nuniform mat4 gm_Matrices[MATRICES_MAX]; \n\nuniform bool gm_LightingEnabled;\nuniform bool gm_VS_FogEnabled;\nuniform float gm_FogStart;\nuniform float gm_RcpFogRange;\n\n#define MAX_VS_LIGHTS	8\n#define MIRROR_WIN32_LIGHTING_EQUATION\n\n\n//#define	MAX_VS_LIGHTS					8\nuniform vec4   gm_AmbientColour;							// rgb=colour, a=1\nuniform vec4   gm_Lights_Direction[MAX_VS_LIGHTS];		// normalised direction\nuniform vec4   gm_Lights_PosRange[MAX_VS_LIGHTS];			// X,Y,Z position,  W range\nuniform vec4   gm_Lights_Colour[MAX_VS_LIGHTS];			// rgb=colour, a=1\n\nfloat CalcFogFactor(vec4 pos)\n{\n	if (gm_VS_FogEnabled)\n	{\n		vec4 viewpos = gm_Matrices[MATRIX_WORLD_VIEW] * pos;\n		float fogfactor = ((viewpos.z - gm_FogStart) * gm_RcpFogRange);\n		return fogfactor;\n	}\n	else\n	{\n		return 0.0;\n	}\n}\n\nvec4 DoDirLight(vec3 ws_normal, vec4 dir, vec4 diffusecol)\n{\n	float dotresult = dot(ws_normal, dir.xyz);\n	dotresult = max(0.0, dotresult);\n\n	return dotresult * diffusecol;\n}\n\nvec4 DoPointLight(vec3 ws_pos, vec3 ws_normal, vec4 posrange, vec4 diffusecol)\n{\n	vec3 diffvec = ws_pos - posrange.xyz;\n	float veclen = length(diffvec);\n	diffvec /= veclen;	// normalise\n#ifdef MIRROR_WIN32_LIGHTING_EQUATION\n	// This is based on the Win32 D3D and OpenGL falloff model, where:\n	// Attenuation = 1.0f / (factor0 + (d * factor1) + (d*d * factor2))\n	// For some reason, factor0 is set to 0.0f while factor1 is set to 1.0f/lightrange (on both D3D and OpenGL)\n	// This'll result in no visible falloff as 1.0f / (d / lightrange) will always be larger than 1.0f (if the vertex is within range)\n	float atten = 1.0 / (veclen / posrange.w);\n	if (veclen > posrange.w)\n	{\n		atten = 0.0;\n	}\n#else\n	float atten = clamp( (1.0 - (veclen / posrange.w)), 0.0, 1.0);		// storing 1.0f/range instead would save a rcp\n#endif\n	float dotresult = dot(ws_normal, diffvec);\n	dotresult = max(0.0, dotresult);\n\n	return dotresult * atten * diffusecol;\n}\n\nvec4 DoLighting(vec4 vertexcolour, vec4 objectspacepos, vec3 objectspacenormal)\n{\n	if (gm_LightingEnabled)\n	{\n		// Normally we'd have the light positions\\directions back-transformed from world to object space\n		// But to keep things simple for the moment we'll just transform the normal to world space\n		vec4 objectspacenormal4 = vec4(objectspacenormal, 0.0);\n		vec3 ws_normal;\n		ws_normal = (gm_Matrices[MATRIX_WORLD_VIEW] * objectspacenormal4).xyz;\n		ws_normal = -normalize(ws_normal);\n\n		vec3 ws_pos;\n		ws_pos = (gm_Matrices[MATRIX_WORLD] * objectspacepos).xyz;\n\n		// Accumulate lighting from different light types\n		vec4 accumcol = vec4(0.0, 0.0, 0.0, 0.0);		\n		for(int i = 0; i < MAX_VS_LIGHTS; i++)\n		{\n			accumcol += DoDirLight(ws_normal, gm_Lights_Direction[i], gm_Lights_Colour[i]);\n		}\n\n		for(int i = 0; i < MAX_VS_LIGHTS; i++)\n		{\n			accumcol += DoPointLight(ws_pos, ws_normal, gm_Lights_PosRange[i], gm_Lights_Colour[i]);\n		}\n\n		accumcol *= vertexcolour;\n		accumcol += gm_AmbientColour;\n		accumcol = min(vec4(1.0, 1.0, 1.0, 1.0), accumcol);\n		return accumcol;\n	}\n	else\n	{\n		return vertexcolour;\n	}\n}\n\n#define _YY_GLSLES_ 1\n//\r\n// Simple passthrough vertex shader\r\n//\r\nattribute vec3 in_Position;                  // (x,y,z)\r\n//attribute vec3 in_Normal;                  // (x,y,z)     unused in this shader.\r\nattribute vec4 in_Colour;                    // (r,g,b,a)\r\nattribute vec2 in_TextureCoord;              // (u,v)\r\n\r\nvarying vec2 v_vTexcoord;\r\nvarying vec4 v_vColour;\r\n\r\nvoid main()\r\n{\r\n    vec4 object_space_pos = vec4( in_Position.x, in_Position.y, in_Position.z, 1.0);\r\n    gl_Position = gm_Matrices[MATRIX_WORLD_VIEW_PROJECTION] * object_space_pos;\r\n    \r\n    v_vColour = in_Colour;\r\n    v_vTexcoord = in_TextureCoord;\r\n}\r\n
+   858: precision mediump float;\n#define LOWPREC lowp\n// Uniforms look like they're shared between vertex and fragment shaders in GLSL, so we have to be careful to avoid name clashes\n\nuniform sampler2D gm_BaseTexture;\n\nuniform bool gm_PS_FogEnabled;\nuniform vec4 gm_FogColour;\nuniform bool gm_AlphaTestEnabled;\nuniform float gm_AlphaRefValue;\n\nvoid DoAlphaTest(vec4 SrcColour)\n{\n	if (gm_AlphaTestEnabled)\n	{\n		if (SrcColour.a <= gm_AlphaRefValue)\n		{\n			discard;\n		}\n	}\n}\n\nvoid DoFog(inout vec4 SrcColour, float fogval)\n{\n	if (gm_PS_FogEnabled)\n	{\n		SrcColour = mix(SrcColour, gm_FogColour, clamp(fogval, 0.0, 1.0)); \n	}\n}\n\n#define _YY_GLSLES_ 1\n//\r\n// Simple passthrough fragment shader\r\n//\r\n// Black and white fragment shader\r\nvarying vec2 v_vTexcoord;\r\nvarying vec4 v_vColour;\r\n\r\nvoid main()\r\n{\r\n    vec4 texColor = texture2D(gm_BaseTexture, v_vTexcoord);\r\n    float gray = (texColor.r + texColor.g + texColor.b) / 3.0;\r\n    gl_FragColor = v_vColour * vec4(gray, gray, gray, texColor.a);\r\n}\r\n
+   859: #version 120\n#define LOWPREC \n#define lowp\n#define mediump\n#define highp\n#define precision\n#define	MATRIX_VIEW 					0\n#define	MATRIX_PROJECTION 				1\n#define	MATRIX_WORLD 					2\n#define	MATRIX_WORLD_VIEW 				3\n#define	MATRIX_WORLD_VIEW_PROJECTION 	4\n#define	MATRICES_MAX					5\n\nuniform mat4 gm_Matrices[MATRICES_MAX]; \n\nuniform bool gm_LightingEnabled;\nuniform bool gm_VS_FogEnabled;\nuniform float gm_FogStart;\nuniform float gm_RcpFogRange;\n\n#define MAX_VS_LIGHTS	8\n#define MIRROR_WIN32_LIGHTING_EQUATION\n\n\n//#define	MAX_VS_LIGHTS					8\nuniform vec4   gm_AmbientColour;							// rgb=colour, a=1\nuniform vec4   gm_Lights_Direction[MAX_VS_LIGHTS];		// normalised direction\nuniform vec4   gm_Lights_PosRange[MAX_VS_LIGHTS];			// X,Y,Z position,  W range\nuniform vec4   gm_Lights_Colour[MAX_VS_LIGHTS];			// rgb=colour, a=1\n\nfloat CalcFogFactor(vec4 pos)\n{\n	if (gm_VS_FogEnabled)\n	{\n		vec4 viewpos = gm_Matrices[MATRIX_WORLD_VIEW] * pos;\n		float fogfactor = ((viewpos.z - gm_FogStart) * gm_RcpFogRange);\n		return fogfactor;\n	}\n	else\n	{\n		return 0.0;\n	}\n}\n\nvec4 DoDirLight(vec3 ws_normal, vec4 dir, vec4 diffusecol)\n{\n	float dotresult = dot(ws_normal, dir.xyz);\n	dotresult = max(0.0, dotresult);\n\n	return dotresult * diffusecol;\n}\n\nvec4 DoPointLight(vec3 ws_pos, vec3 ws_normal, vec4 posrange, vec4 diffusecol)\n{\n	vec3 diffvec = ws_pos - posrange.xyz;\n	float veclen = length(diffvec);\n	diffvec /= veclen;	// normalise\n#ifdef MIRROR_WIN32_LIGHTING_EQUATION\n	// This is based on the Win32 D3D and OpenGL falloff model, where:\n	// Attenuation = 1.0f / (factor0 + (d * factor1) + (d*d * factor2))\n	// For some reason, factor0 is set to 0.0f while factor1 is set to 1.0f/lightrange (on both D3D and OpenGL)\n	// This'll result in no visible falloff as 1.0f / (d / lightrange) will always be larger than 1.0f (if the vertex is within range)\n	float atten = 1.0 / (veclen / posrange.w);\n	if (veclen > posrange.w)\n	{\n		atten = 0.0;\n	}\n#else\n	float atten = clamp( (1.0 - (veclen / posrange.w)), 0.0, 1.0);		// storing 1.0f/range instead would save a rcp\n#endif\n	float dotresult = dot(ws_normal, diffvec);\n	dotresult = max(0.0, dotresult);\n\n	return dotresult * atten * diffusecol;\n}\n\nvec4 DoLighting(vec4 vertexcolour, vec4 objectspacepos, vec3 objectspacenormal)\n{\n	if (gm_LightingEnabled)\n	{\n		// Normally we'd have the light positions\\directions back-transformed from world to object space\n		// But to keep things simple for the moment we'll just transform the normal to world space\n		vec4 objectspacenormal4 = vec4(objectspacenormal, 0.0);\n		vec3 ws_normal;\n		ws_normal = (gm_Matrices[MATRIX_WORLD_VIEW] * objectspacenormal4).xyz;\n		ws_normal = -normalize(ws_normal);\n\n		vec3 ws_pos;\n		ws_pos = (gm_Matrices[MATRIX_WORLD] * objectspacepos).xyz;\n\n		// Accumulate lighting from different light types\n		vec4 accumcol = vec4(0.0, 0.0, 0.0, 0.0);		\n		for(int i = 0; i < MAX_VS_LIGHTS; i++)\n		{\n			accumcol += DoDirLight(ws_normal, gm_Lights_Direction[i], gm_Lights_Colour[i]);\n		}\n\n		for(int i = 0; i < MAX_VS_LIGHTS; i++)\n		{\n			accumcol += DoPointLight(ws_pos, ws_normal, gm_Lights_PosRange[i], gm_Lights_Colour[i]);\n		}\n\n		accumcol *= vertexcolour;\n		accumcol += gm_AmbientColour;\n		accumcol = min(vec4(1.0, 1.0, 1.0, 1.0), accumcol);\n		return accumcol;\n	}\n	else\n	{\n		return vertexcolour;\n	}\n}\n\n#define _YY_GLSL_ 1\n//\r\n// Simple passthrough vertex shader\r\n//\r\nattribute vec3 in_Position;                  // (x,y,z)\r\n//attribute vec3 in_Normal;                  // (x,y,z)     unused in this shader.\r\nattribute vec4 in_Colour;                    // (r,g,b,a)\r\nattribute vec2 in_TextureCoord;              // (u,v)\r\n\r\nvarying vec2 v_vTexcoord;\r\nvarying vec4 v_vColour;\r\n\r\nvoid main()\r\n{\r\n    vec4 object_space_pos = vec4( in_Position.x, in_Position.y, in_Position.z, 1.0);\r\n    gl_Position = gm_Matrices[MATRIX_WORLD_VIEW_PROJECTION] * object_space_pos;\r\n    \r\n    v_vColour = in_Colour;\r\n    v_vTexcoord = in_TextureCoord;\r\n}\r\n
+   860: #version 120\n#define LOWPREC \n#define lowp\n#define mediump\n#define highp\n#define precision\n// Uniforms look like they're shared between vertex and fragment shaders in GLSL, so we have to be careful to avoid name clashes\n\nuniform sampler2D gm_BaseTexture;\n\nuniform bool gm_PS_FogEnabled;\nuniform vec4 gm_FogColour;\nuniform bool gm_AlphaTestEnabled;\nuniform float gm_AlphaRefValue;\n\nvoid DoAlphaTest(vec4 SrcColour)\n{\n	if (gm_AlphaTestEnabled)\n	{\n		if (SrcColour.a <= gm_AlphaRefValue)\n		{\n			discard;\n		}\n	}\n}\n\nvoid DoFog(inout vec4 SrcColour, float fogval)\n{\n	if (gm_PS_FogEnabled)\n	{\n		SrcColour = mix(SrcColour, gm_FogColour, clamp(fogval, 0.0, 1.0)); \n	}\n}\n\n#define _YY_GLSL_ 1\n//\r\n// Simple passthrough fragment shader\r\n//\r\n// Black and white fragment shader\r\nvarying vec2 v_vTexcoord;\r\nvarying vec4 v_vColour;\r\n\r\nvoid main()\r\n{\r\n    vec4 texColor = texture2D(gm_BaseTexture, v_vTexcoord);\r\n    float gray = (texColor.r + texColor.g + texColor.b) / 3.0;\r\n    gl_FragColor = v_vColour * vec4(gray, gray, gray, texColor.a);\r\n}\r\n
+   861: #define	MATRIX_VIEW 					0\n#define	MATRIX_PROJECTION 				1\n#define	MATRIX_WORLD 					2\n#define	MATRIX_WORLD_VIEW 				3\n#define	MATRIX_WORLD_VIEW_PROJECTION 	4\n#define	MATRICES_MAX					5\n\nfloat4x4 	gm_Matrices[MATRICES_MAX] : register(c0);\n\nbool 	gm_LightingEnabled;\nbool 	gm_VS_FogEnabled;\nfloat 	gm_FogStart;\nfloat 	gm_RcpFogRange;\n\n#define	MAX_VS_LIGHTS					8\nfloat4 gm_AmbientColour;							// rgb=colour, a=1\nfloat3 gm_Lights_Direction[MAX_VS_LIGHTS];			// normalised direction\nfloat4 gm_Lights_PosRange[MAX_VS_LIGHTS];			// X,Y,Z position,  W range\nfloat4 gm_Lights_Colour[MAX_VS_LIGHTS];				// rgb=colour, a=1\n\n
+   862: // GameMaker reserved and common types/inputs\n\nsampler2D gm_BaseTexture : register(S0);\n\nbool 	gm_PS_FogEnabled;\nfloat4 	gm_FogColour;\nbool 	gm_AlphaTestEnabled;\nfloat4	gm_AlphaRefValue;\n
+   863: in_Position
+   864: in_Colour
+   865: in_TextureCoord
+   866: fnt_BeegScary
+   867: Chiller
+   868: fnt_Global
+   869: Press Start 2P
+   870: fnt_Level
+   871: Galiver Sans Obliques
+   872: fnt_Beeg
+   873: Galiver Sans
+   874: fnt_BeegSerif
+   875: Times New Roman
+   876: fnt_LevelScary
+   877: fnt_GlobalSerif
+   878: obj_Nug2
+   879: obj_NeedMorePromptCatto2
+   880: obj_BlackControl
+   881: obj_StartControl
+   882: obj_CatFood
+   883: obj_Act6Dialog11
+   884: obj_DialogAct3Control3
+   885: obj_Creep
+   886: par_Collectibles
+   887: obj_Act5Dialog8
+   888: obj_SpookyBoi2
+   889: obj_Jumpscare
+   890: obj_WallTrap
+   891: obj_DialogAct6Control1
+   892: obj_Act3Dialog9
+   893: obj_ThankYouText
+   894: obj_Act6Dialog5
+   895: obj_TriggerJumpscare
+   896: obj_CattoTitleAct1Catto1
+   897: obj_TriggerSpookBoi
+   898: obj_TextTitleAct1Catto1
+   899: obj_Version
+   900: obj_Act6Dialog12
+   901: obj_StartControl2
+   902: obj_CattoTitle
+   903: obj_PlayerDie
+   904: obj_TitleMenuCatto1
+   905: obj_DialogAct5Control2
+   906: obj_Act5Dialog9
+   907: obj_SprGlassBreak2
+   908: obj_SprGlassBreak1
+   909: obj_CattoWakeUpDialog
+   910: obj_TitleMenuFUCKED
+   911: obj_Act6Dialog14
+   912: obj_BigBoiHelpCatto2
+   913: obj_DebugMenu
+   914: obj_ThankYouControl
+   915: obj_DialogAct3Control1
+   916: obj_Credits
+   917: obj_CloseHandler
+   918: obj_Act6Dialog10
+   919: obj_TextSpam
+   920: obj_BANGING
+   921: obj_Pit
+   922: obj_Spikes
+   923: obj_TitleMenu
+   924: obj_Wait
+   925: obj_CattoTitleCatto2
+   926: obj_DialogControl
+   927: obj_DiedDialog
+   928: obj_Act3Dialog4
+   929: obj_TriggerRevelation
+   930: obj_ChaseTrigger
+   931: obj_ControlsHintCatto1
+   932: obj_LogoTitleCatto2
+   933: obj_Time
+   934: par_Triggers
+   935: obj_test
+   936: obj_Act5Dialog7
+   937: obj_WakeUp
+   938: obj_example
+   939: obj_TriggerSpookBoi2
+   940: obj_CattoWakeUpDialog3
+   941: obj_AfterNug1
+   942: obj_LogoTitle
+   943: obj_NeedMorePromptCatto1
+   944: obj_Act5Dialog5
+   945: obj_CarefulHintCatto2
+   946: obj_Act3Dialog2Trigger
+   947: obj_CattoBoiDie
+   948: obj_ScreenBreak
+   949: obj_Pearl
+   950: obj_MouseLock
+   951: obj_Act5Dialog4
+   952: obj_ShakeTrigger
+   953: obj_Spook
+   954: obj_DialogSpam
+   955: obj_DialogTest
+   956: obj_CattoTitleFUCKED
+   957: obj_Act6Dialog2
+   958: obj_BigBoiDialog
+   959: obj_SprHands
+   960: obj_Act3Dialog8
+   961: obj_Act3Dialog1
+   962: obj_LogoTitleFUCKED
+   963: obj_Understood
+   964: obj_Act6Dialog6
+   965: obj_Nug1
+   966: obj_BlackBoi2
+   967: obj_DialogAct5Control1
+   968: obj_Freeze
+   969: obj_SpookyBoi
+   970: obj_AfterShake
+   971: obj_Act6Dialog09
+   972: obj_Act3Dialog3
+   973: obj_Died
+   974: obj_Act5Dialog6
+   975: obj_DebugTitle
+   976: obj_MusicControl
+   977: obj_Revelation
+   978: obj_Act3Dialog5
+   979: obj_PlayerControl
+   980: obj_BigBoi
+   981: obj_HUD
+   982: obj_Act6Dialog07
+   983: obj_PlayerSpawn
+   984: obj_CollisionBlock
+   985: obj_Act5Dialog3
+   986: obj_Entity
+   987: obj_Locked
+   988: obj_NeedMorePrompt
+   989: obj_Ending
+   990: obj_Act5Dialog1
+   991: obj_ChaseControl
+   992: obj_DialogAct6Control2
+   993: obj_ToLoadScreen
+   994: obj_NextRoom
+   995: obj_CrashTrigger
+   996: obj_Timer2
+   997: obj_MouseFuck
+   998: obj_NextRoomNoFade
+   999: obj_CattoBoi
+  1000: obj_Act6Dialog3
+  1001: obj_CattoBoiCrrupt
+  1002: obj_CattoBoiDead
+  1003: obj_Act1Menu
+  1004: obj_CarefulHintCatto1
+  1005: obj_GameOverText
+  1006: obj_Act3Dialog2
+  1007: obj_FadeIn
+  1008: obj_FadeOut
+  1009: par_Transitions
+  1010: obj_TitleMenuCatto2
+  1011: obj_LoadingScreen
+  1012: obj_BigBoiCatto2
+  1013: obj_Warning
+  1014: obj_Act6Dialog08
+  1015: obj_EnterMenu
+  1016: obj_GlobalVarMenu
+  1017: obj_Biscuit
+  1018: Looking_at_these_files_huh
+  1019: obj_Act6Dialog1
+  1020: obj_Act5Dialog2
+  1021: obj_Shrine
+  1022: obj_BigBoiHelp
+  1023: obj_BlackBoi
+  1024: obj_Act6Dialog13
+  1025: obj_LevelTitlePause
+  1026: obj_ScreenShake
+  1027: obj_GlobalVarTitle
+  1028: obj_AfterNug2
+  1029: obj_Act3Dialog6
+  1030: obj_Timer
+  1031: obj_Level4Trigger
+  1032: obj_CattoWakeUpDialog2
+  1033: obj_Act1Title
+  1034: obj_Act3Dialog7
+  1035: obj_DialogAct3Control2
+  1036: obj_Act6Dialog4
+  1037: obj_Act6Dialog15
+  1038: obj_Black
+  1039: rm_DEAD
+  1040: Instances
+  1041: Background
+  1042: rm_Death
+  1043: ground
+  1044: rm_TitleScreen
+  1045: Background_1
+  1046: rm_Act6Dialog1
+  1047: rm_Creep
+  1048: Backgrounds_2
+  1049: Backgrounds_1
+  1050: rm_Final
+  1051: rm_Jumpscare
+  1052: rm_LevelWho
+  1053: rm_CattoFuckingDies
+  1054: rm_More
+  1055: Assets_1
+  1056: graphic_36B722B4
+  1057: rm_Level1Catto2
+  1058: pearls
+  1059: exit
+  1060: graphic_31D5A9E7
+  1061: rm_Act3Dialog3
+  1062: rm_Act3Dialog1
+  1063: rm_Spook
+  1064: rm_ScreenBreak
+  1065: rm_TitleScreenFUCKED
+  1066: rm_GlobalVarMenu
+  1067: Backgrounds_3
+  1068: rm_Act5Dialog1
+  1069: rm_IMSORRY
+  1070: flowers_trees
+  1071: graphic_D3368F3
+  1072: graphic_5478B8C3
+  1073: graphic_2740DC1C
+  1074: graphic_4962B4F1
+  1075: graphic_2F2B3E9F
+  1076: graphic_2A643C64
+  1077: graphic_73A9C474
+  1078: graphic_7ABF0956
+  1079: houses
+  1080: graphic_3C53CA74
+  1081: graphic_5DDD76A4
+  1082: graphic_26DC5BB0
+  1083: graphic_4D9783C9
+  1084: graphic_11D327BE
+  1085: graphic_37436247
+  1086: graphic_11733044
+  1087: graphic_4A0DED95
+  1088: rm_ThankYou
+  1089: rm_Act6Dialog2
+  1090: rm_example
+  1091: Compatibility_Instances_Depth_0
+  1092: Compatibility_Colour
+  1093: rm_Level2
+  1094: graphic_14DDE2E9
+  1095: perls
+  1096: graphic_7966116F
+  1097: graphic_446591ED
+  1098: graphic_391745A6
+  1099: graphic_440DE4FD
+  1100: graphic_59EF6A10
+  1101: graphic_20E0D7BC
+  1102: graphic_21C9A4A1
+  1103: pit
+  1104: graphic_2B63D51
+  1105: graphic_73392B3D
+  1106: rm_Level3
+  1107: graphic_7F58AEE3
+  1108: graphic_388DB5F9
+  1109: graphic_469822BB
+  1110: rm_Act3Dialog2
+  1111: rm_Level1Catto1
+  1112: arrows
+  1113: graphic_7442D0F3
+  1114: graphic_1C646252
+  1115: rm_TitleScreenCatto1
+  1116: rm_Darkness
+  1117: rm_Progression
+  1118: rm_HubScary
+  1119: rm_Level1
+  1120: graphic_41142B52
+  1121: graphic_C0D70F0
+  1122: graphic_5F23D14B
+  1123: graphic_64AB9C16
+  1124: graphic_7AB155BF
+  1125: graphic_231BA179
+  1126: graphic_394CBC65
+  1127: graphic_1289D471
+  1128: graphic_14ABD8D7
+  1129: graphic_9074DE9
+  1130: graphic_5FD68191
+  1131: graphic_6A445B67
+  1132: graphic_30B8F651
+  1133: graphic_168FED5C
+  1134: graphic_7C7D51C
+  1135: graphic_42A3426D
+  1136: graphic_56F6EF66
+  1137: graphic_610EAE0F
+  1138: graphic_2C7717D4
+  1139: graphic_79E5DD2E
+  1140: graphic_79A806A1
+  1141: graphic_755924B7
+  1142: graphic_7E1E6D21
+  1143: graphic_302BF2E4
+  1144: graphic_657E28AC
+  1145: graphic_7E1F7236
+  1146: graphic_6907AA5
+  1147: graphic_66DF7E71
+  1148: graphic_39E596F2
+  1149: rm_LevelWhy
+  1150: rm_Lock
+  1151: rm_Act1Menu
+  1152: rm_Act5Dialog2
+  1153: rm_Answer
+  1154: rm_HubDayNormal
+  1155: flowes
+  1156: graphic_1987A5B6
+  1157: graphic_D5BE0CD
+  1158: graphic_6BA8FC57
+  1159: graphic_789E1BA0
+  1160: graphic_226EE01F
+  1161: graphic_47CFF54D
+  1162: graphic_25513F32
+  1163: graphic_4E391BBC
+  1164: graphic_34C87EC1
+  1165: graphic_560760F1
+  1166: graphic_1833F40
+  1167: graphic_B074806
+  1168: graphic_B2648D9
+  1169: graphic_5DD48EB
+  1170: graphic_33E4CF79
+  1171: tres
+  1172: graphic_4C43915B
+  1173: graphic_3C5667E5
+  1174: graphic_211B3D55
+  1175: graphic_2AFC4B56
+  1176: graphic_1C207E02
+  1177: graphic_2FBC8DA1
+  1178: graphic_42B86354
+  1179: graphic_A1090E
+  1180: rm_WakeUp
+  1181: Instances_1
+  1182: graphic_70EB7D56
+  1183: bricks
+  1184: graphic_5EA416F2
+  1185: graphic_282D9F72
+  1186: graphic_1C7BFF1A
+  1187: graphic_2FF0F273
+  1188: graphic_DBC82C5
+  1189: graphic_4E43CA8E
+  1190: graphic_230536F5
+  1191: graphic_6F9D6F5A
+  1192: graphic_2926E3FF
+  1193: graphic_653D1C4E
+  1194: graphic_1386B78F
+  1195: graphic_AE40B0C
+  1196: graphic_6BC330AF
+  1197: graphic_1ED40FBB
+  1198: graphic_4900E835
+  1199: rm_TitleScreenCatto2
+  1200: rm_Hell
+  1201: rm_LevelWTF
+  1202: rm_Credits
+  1203: rm_Init
+  1204: rm_HubDay
+  1205: rm_HubNight
+  1206: rm_Died
+  1207: rm_Warning
+  1208: rm_LoadingScreen
+  1209: graphic_41B3A963
+  1210: rm_DebugMenu
+  1211: rm_Test
+  1212: rm_Test2
+  1213: rm_TitleScreenBackground
+  1214: gml_GlobalScript_scr_CheckTry
+  1215: gml_GlobalScript_scr_writeTextToDir
+  1216: gml_GlobalScript_scr_OneProcess
+  1217: gml_GlobalScript_scr_writeFakeEnd
+  1218: gml_GlobalScript_scr_TextXY
+  1219: gml_GlobalScript_hex_to_real
+  1220: gml_GlobalScript_scr_InitMisc
+  1221: gml_GlobalScript_scr_writeTextFile
+  1222: gml_GlobalScript_scr_writeHellStage
+  1223: gml_GlobalScript_scr_writeTrueEnd
+  1224: gml_GlobalScript_scr_Camera
+  1225: gml_GlobalScript_scr_Parallax
+  1226: gml_GlobalScript_scr_Text
+  1227: gml_GlobalScript_scr_TextSmall
+  1228: gml_GlobalScript_scr_TextSmallXY
+  1229: gml_GlobalScript_scr_CheckState
+  1230: gml_GlobalScript_scr_Init
+  1231: gml_GlobalScript___init_global
+  1232: gml_GlobalScript_draw_tbutton
+  1233: gml_GlobalScript_scr_writeTryCount
+  1234: gml_GlobalScript_macros
+  1235: gml_GlobalScript_scr_ExitGame
+  1236: gml_Room_rm_Death_Create
+  1237: gml_Room_rm_TitleScreen_Create
+  1238: gml_Room_rm_Act6Dialog1_Create
+  1239: gml_Room_rm_Final_Create
+  1240: gml_Room_rm_Jumpscare_Create
+  1241: gml_Room_rm_LevelWho_Create
+  1242: gml_Room_rm_More_Create
+  1243: gml_Room_rm_Level1Catto2_Create
+  1244: gml_Room_rm_ScreenBreak_Create
+  1245: gml_Room_rm_TitleScreenFUCKED_Create
+  1246: gml_Room_rm_GlobalVarMenu_Create
+  1247: gml_Room_rm_Act5Dialog1_Create
+  1248: gml_Room_rm_IMSORRY_Create
+  1249: gml_Room_rm_ThankYou_Create
+  1250: gml_Room_rm_Act6Dialog2_Create
+  1251: gml_Room_rm_Level2_Create
+  1252: gml_Room_rm_Level3_Create
+  1253: gml_Room_rm_Level1Catto1_Create
+  1254: gml_Room_rm_TitleScreenCatto1_Create
+  1255: gml_Room_rm_Darkness_Create
+  1256: gml_Room_rm_HubScary_Create
+  1257: gml_Room_rm_Level1_Create
+  1258: gml_Room_rm_LevelWhy_Create
+  1259: gml_Room_rm_Act1Menu_Create
+  1260: gml_Room_rm_Act5Dialog2_Create
+  1261: gml_Room_rm_Answer_Create
+  1262: gml_Room_rm_HubDayNormal_Create
+  1263: gml_Room_rm_WakeUp_Create
+  1264: gml_Room_rm_TitleScreenCatto2_Create
+  1265: gml_Room_rm_Hell_Create
+  1266: gml_Room_rm_LevelWTF_Create
+  1267: gml_Room_rm_Credits_Create
+  1268: gml_Room_rm_Init_Create
+  1269: gml_Room_rm_HubDay_Create
+  1270: gml_Room_rm_HubNight_Create
+  1271: gml_Room_rm_DebugMenu_Create
+  1272: gml_Room_rm_Test_Create
+  1273: gml_Room_rm_Test2_Create
+  1274: gml_Room_rm_TitleScreenBackground_Create
+  1275: gml_Object_obj_Nug2_Create_0
+  1276: gml_Object_obj_Nug2_Collision_obj_PlayerControl
+  1277: gml_Object_obj_Nug2_PreCreate_0
+  1278: gml_Object_obj_NeedMorePromptCatto2_Draw_0
+  1279: gml_Object_obj_NeedMorePromptCatto2_PreCreate_0
+  1280: gml_Object_obj_BlackControl_Create_0
+  1281: gml_Object_obj_BlackControl_Alarm_0
+  1282: gml_Object_obj_BlackControl_PreCreate_0
+  1283: gml_Object_obj_StartControl_Create_0
+  1284: gml_Object_obj_StartControl_Alarm_0
+  1285: gml_Object_obj_StartControl_Alarm_1
+  1286: gml_Object_obj_StartControl_Alarm_2
+  1287: gml_Object_obj_StartControl_Alarm_3
+  1288: gml_Object_obj_StartControl_Alarm_4
+  1289: gml_Object_obj_StartControl_PreCreate_0
+  1290: gml_Object_obj_CatFood_Create_0
+  1291: gml_Object_obj_CatFood_Collision_obj_PlayerControl
+  1292: gml_Object_obj_CatFood_PreCreate_0
+  1293: gml_Object_obj_Act6Dialog11_Draw_0
+  1294: gml_Object_obj_Act6Dialog11_PreCreate_0
+  1295: gml_Object_obj_DialogAct3Control3_Create_0
+  1296: gml_Object_obj_DialogAct3Control3_Alarm_0
+  1297: gml_Object_obj_DialogAct3Control3_Alarm_1
+  1298: gml_Object_obj_DialogAct3Control3_Alarm_2
+  1299: gml_Object_obj_DialogAct3Control3_Alarm_3
+  1300: gml_Object_obj_DialogAct3Control3_Alarm_4
+  1301: gml_Object_obj_DialogAct3Control3_Alarm_5
+  1302: gml_Object_obj_DialogAct3Control3_Alarm_6
+  1303: gml_Object_obj_DialogAct3Control3_Alarm_7
+  1304: gml_Object_obj_DialogAct3Control3_Alarm_8
+  1305: gml_Object_obj_DialogAct3Control3_PreCreate_0
+  1306: gml_Object_obj_Creep_Create_0
+  1307: gml_Object_obj_Creep_Alarm_0
+  1308: gml_Object_obj_Creep_PreCreate_0
+  1309: gml_Object_par_Collectibles_PreCreate_0
+  1310: gml_Object_obj_Act5Dialog8_Draw_0
+  1311: gml_Object_obj_Act5Dialog8_PreCreate_0
+  1312: gml_Object_obj_SpookyBoi2_Create_0
+  1313: gml_Object_obj_SpookyBoi2_Alarm_0
+  1314: gml_Object_obj_SpookyBoi2_Step_0
+  1315: gml_Object_obj_SpookyBoi2_PreCreate_0
+  1316: gml_Object_obj_Jumpscare_Create_0
+  1317: gml_Object_obj_Jumpscare_Alarm_0
+  1318: gml_Object_obj_Jumpscare_Alarm_1
+  1319: gml_Object_obj_Jumpscare_Alarm_2
+  1320: gml_Object_obj_Jumpscare_PreCreate_0
+  1321: gml_Object_obj_WallTrap_Step_0
+  1322: gml_Object_obj_WallTrap_PreCreate_0
+  1323: gml_Object_obj_DialogAct6Control1_Create_0
+  1324: gml_Object_obj_DialogAct6Control1_Alarm_0
+  1325: gml_Object_obj_DialogAct6Control1_Alarm_1
+  1326: gml_Object_obj_DialogAct6Control1_Alarm_2
+  1327: gml_Object_obj_DialogAct6Control1_Alarm_3
+  1328: gml_Object_obj_DialogAct6Control1_Alarm_4
+  1329: gml_Object_obj_DialogAct6Control1_Alarm_5
+  1330: gml_Object_obj_DialogAct6Control1_Alarm_6
+  1331: gml_Object_obj_DialogAct6Control1_Alarm_7
+  1332: gml_Object_obj_DialogAct6Control1_Alarm_8
+  1333: gml_Object_obj_DialogAct6Control1_PreCreate_0
+  1334: gml_Object_obj_Act3Dialog9_Draw_0
+  1335: gml_Object_obj_Act3Dialog9_PreCreate_0
+  1336: gml_Object_obj_ThankYouText_Draw_0
+  1337: gml_Object_obj_ThankYouText_PreCreate_0
+  1338: gml_Object_obj_Act6Dialog5_Draw_0
+  1339: gml_Object_obj_Act6Dialog5_PreCreate_0
+  1340: gml_Object_obj_TriggerJumpscare_Collision_obj_PlayerControl
+  1341: gml_Object_obj_TriggerJumpscare_PreCreate_0
+  1342: gml_Object_obj_CattoTitleAct1Catto1_Create_0
+  1343: gml_Object_obj_CattoTitleAct1Catto1_PreCreate_0
+  1344: gml_Object_obj_TriggerSpookBoi_Collision_obj_PlayerControl
+  1345: gml_Object_obj_TriggerSpookBoi_PreCreate_0
+  1346: gml_Object_obj_TextTitleAct1Catto1_Create_0
+  1347: gml_Object_obj_TextTitleAct1Catto1_PreCreate_0
+  1348: gml_Object_obj_Version_Draw_0
+  1349: gml_Object_obj_Version_PreCreate_0
+  1350: gml_Object_obj_Act6Dialog12_Draw_0
+  1351: gml_Object_obj_Act6Dialog12_PreCreate_0
+  1352: gml_Object_obj_StartControl2_Create_0
+  1353: gml_Object_obj_StartControl2_Alarm_1
+  1354: gml_Object_obj_StartControl2_Alarm_2
+  1355: gml_Object_obj_StartControl2_Alarm_3
+  1356: gml_Object_obj_StartControl2_Alarm_4
+  1357: gml_Object_obj_StartControl2_Alarm_5
+  1358: gml_Object_obj_StartControl2_Other_63
+  1359: gml_Object_obj_StartControl2_PreCreate_0
+  1360: gml_Object_obj_CattoTitle_Create_0
+  1361: gml_Object_obj_CattoTitle_PreCreate_0
+  1362: gml_Object_obj_PlayerDie_Create_0
+  1363: gml_Object_obj_PlayerDie_Step_0
+  1364: gml_Object_obj_PlayerDie_PreCreate_0
+  1365: gml_Object_obj_TitleMenuCatto1_Create_0
+  1366: gml_Object_obj_TitleMenuCatto1_Step_0
+  1367: gml_Object_obj_TitleMenuCatto1_Draw_0
+  1368: gml_Object_obj_TitleMenuCatto1_PreCreate_0
+  1369: gml_Object_obj_DialogAct5Control2_Create_0
+  1370: gml_Object_obj_DialogAct5Control2_Alarm_0
+  1371: gml_Object_obj_DialogAct5Control2_Alarm_1
+  1372: gml_Object_obj_DialogAct5Control2_Alarm_2
+  1373: gml_Object_obj_DialogAct5Control2_Alarm_3
+  1374: gml_Object_obj_DialogAct5Control2_Alarm_4
+  1375: gml_Object_obj_DialogAct5Control2_Alarm_5
+  1376: gml_Object_obj_DialogAct5Control2_Alarm_6
+  1377: gml_Object_obj_DialogAct5Control2_Alarm_7
+  1378: gml_Object_obj_DialogAct5Control2_Alarm_8
+  1379: gml_Object_obj_DialogAct5Control2_PreCreate_0
+  1380: gml_Object_obj_Act5Dialog9_Draw_0
+  1381: gml_Object_obj_Act5Dialog9_PreCreate_0
+  1382: gml_Object_obj_SprGlassBreak2_PreCreate_0
+  1383: gml_Object_obj_SprGlassBreak1_PreCreate_0
+  1384: gml_Object_obj_CattoWakeUpDialog_Draw_0
+  1385: gml_Object_obj_CattoWakeUpDialog_PreCreate_0
+  1386: gml_Object_obj_TitleMenuFUCKED_Create_0
+  1387: gml_Object_obj_TitleMenuFUCKED_Step_0
+  1388: gml_Object_obj_TitleMenuFUCKED_Draw_0
+  1389: gml_Object_obj_TitleMenuFUCKED_PreCreate_0
+  1390: gml_Object_obj_Act6Dialog14_Draw_0
+  1391: gml_Object_obj_Act6Dialog14_PreCreate_0
+  1392: gml_Object_obj_BigBoiHelpCatto2_Draw_0
+  1393: gml_Object_obj_BigBoiHelpCatto2_PreCreate_0
+  1394: gml_Object_obj_DebugMenu_Create_0
+  1395: gml_Object_obj_DebugMenu_Step_0
+  1396: gml_Object_obj_DebugMenu_Draw_0
+  1397: gml_Object_obj_DebugMenu_PreCreate_0
+  1398: gml_Object_obj_ThankYouControl_Create_0
+  1399: gml_Object_obj_ThankYouControl_Alarm_0
+  1400: gml_Object_obj_ThankYouControl_Alarm_1
+  1401: gml_Object_obj_ThankYouControl_PreCreate_0
+  1402: gml_Object_obj_DialogAct3Control1_Create_0
+  1403: gml_Object_obj_DialogAct3Control1_Alarm_0
+  1404: gml_Object_obj_DialogAct3Control1_Alarm_1
+  1405: gml_Object_obj_DialogAct3Control1_Alarm_2
+  1406: gml_Object_obj_DialogAct3Control1_PreCreate_0
+  1407: gml_Object_obj_Credits_Create_0
+  1408: gml_Object_obj_Credits_Alarm_0
+  1409: gml_Object_obj_Credits_Step_0
+  1410: gml_Object_obj_Credits_Draw_0
+  1411: gml_Object_obj_Credits_PreCreate_0
+  1412: gml_Object_obj_CloseHandler_Create_0
+  1413: gml_Object_obj_CloseHandler_Alarm_0
+  1414: gml_Object_obj_CloseHandler_Alarm_1
+  1415: gml_Object_obj_CloseHandler_Alarm_2
+  1416: gml_Object_obj_CloseHandler_Step_0
+  1417: gml_Object_obj_CloseHandler_PreCreate_0
+  1418: gml_Object_obj_Act6Dialog10_Draw_0
+  1419: gml_Object_obj_Act6Dialog10_PreCreate_0
+  1420: gml_Object_obj_TextSpam_Create_0
+  1421: gml_Object_obj_TextSpam_Alarm_0
+  1422: gml_Object_obj_TextSpam_Alarm_1
+  1423: gml_Object_obj_TextSpam_PreCreate_0
+  1424: gml_Object_obj_BANGING_Create_0
+  1425: gml_Object_obj_BANGING_Alarm_0
+  1426: gml_Object_obj_BANGING_Alarm_1
+  1427: gml_Object_obj_BANGING_PreCreate_0
+  1428: gml_Object_obj_Pit_Alarm_0
+  1429: gml_Object_obj_Pit_Alarm_1
+  1430: gml_Object_obj_Pit_Collision_obj_PlayerControl
+  1431: gml_Object_obj_Pit_PreCreate_0
+  1432: gml_Object_obj_Spikes_Collision_obj_PlayerControl
+  1433: gml_Object_obj_Spikes_PreCreate_0
+  1434: gml_Object_obj_TitleMenu_Create_0
+  1435: gml_Object_obj_TitleMenu_Step_0
+  1436: gml_Object_obj_TitleMenu_Draw_0
+  1437: gml_Object_obj_TitleMenu_PreCreate_0
+  1438: gml_Object_obj_Wait_Create_0
+  1439: gml_Object_obj_Wait_Alarm_0
+  1440: gml_Object_obj_Wait_PreCreate_0
+  1441: gml_Object_obj_CattoTitleCatto2_Create_0
+  1442: gml_Object_obj_CattoTitleCatto2_PreCreate_0
+  1443: gml_Object_obj_DialogControl_Create_0
+  1444: gml_Object_obj_DialogControl_Alarm_0
+  1445: gml_Object_obj_DialogControl_Alarm_1
+  1446: gml_Object_obj_DialogControl_Alarm_2
+  1447: gml_Object_obj_DialogControl_Alarm_3
+  1448: gml_Object_obj_DialogControl_PreCreate_0
+  1449: gml_Object_obj_DiedDialog_Draw_0
+  1450: gml_Object_obj_DiedDialog_PreCreate_0
+  1451: gml_Object_obj_Act3Dialog4_Draw_0
+  1452: gml_Object_obj_Act3Dialog4_PreCreate_0
+  1453: gml_Object_obj_TriggerRevelation_Collision_obj_PlayerControl
+  1454: gml_Object_obj_TriggerRevelation_PreCreate_0
+  1455: gml_Object_obj_ChaseTrigger_Collision_obj_PlayerControl
+  1456: gml_Object_obj_ChaseTrigger_PreCreate_0
+  1457: gml_Object_obj_ControlsHintCatto1_Draw_0
+  1458: gml_Object_obj_ControlsHintCatto1_PreCreate_0
+  1459: gml_Object_obj_LogoTitleCatto2_Create_0
+  1460: gml_Object_obj_LogoTitleCatto2_PreCreate_0
+  1461: gml_Object_obj_Time_Create_0
+  1462: gml_Object_obj_Time_Draw_64
+  1463: gml_Object_obj_Time_PreCreate_0
+  1464: gml_Object_par_Triggers_PreCreate_0
+  1465: gml_Object_obj_test_Create_0
+  1466: gml_Object_obj_test_Draw_0
+  1467: gml_Object_obj_test_PreCreate_0
+  1468: gml_Object_obj_Act5Dialog7_Draw_0
+  1469: gml_Object_obj_Act5Dialog7_PreCreate_0
+  1470: gml_Object_obj_WakeUp_Create_0
+  1471: gml_Object_obj_WakeUp_Alarm_0
+  1472: gml_Object_obj_WakeUp_Alarm_1
+  1473: gml_Object_obj_WakeUp_Alarm_2
+  1474: gml_Object_obj_WakeUp_Alarm_3
+  1475: gml_Object_obj_WakeUp_PreCreate_0
+  1476: gml_Object_obj_example_Create_0
+  1477: gml_Object_obj_example_Alarm_0
+  1478: gml_Object_obj_example_Other_63
+  1479: gml_Object_obj_example_PreCreate_0
+  1480: gml_Object_obj_TriggerSpookBoi2_Collision_obj_PlayerControl
+  1481: gml_Object_obj_TriggerSpookBoi2_PreCreate_0
+  1482: gml_Object_obj_CattoWakeUpDialog3_Draw_0
+  1483: gml_Object_obj_CattoWakeUpDialog3_PreCreate_0
+  1484: gml_Object_obj_AfterNug1_Create_0
+  1485: gml_Object_obj_AfterNug1_Alarm_0
+  1486: gml_Object_obj_AfterNug1_Alarm_1
+  1487: gml_Object_obj_AfterNug1_Alarm_2
+  1488: gml_Object_obj_AfterNug1_PreCreate_0
+  1489: gml_Object_obj_LogoTitle_Create_0
+  1490: gml_Object_obj_LogoTitle_PreCreate_0
+  1491: gml_Object_obj_NeedMorePromptCatto1_Draw_0
+  1492: gml_Object_obj_NeedMorePromptCatto1_PreCreate_0
+  1493: gml_Object_obj_Act5Dialog5_Draw_0
+  1494: gml_Object_obj_Act5Dialog5_PreCreate_0
+  1495: gml_Object_obj_CarefulHintCatto2_Draw_0
+  1496: gml_Object_obj_CarefulHintCatto2_PreCreate_0
+  1497: gml_Object_obj_Act3Dialog2Trigger_Collision_obj_PlayerControl
+  1498: gml_Object_obj_Act3Dialog2Trigger_PreCreate_0
+  1499: gml_Object_obj_CattoBoiDie_Create_0
+  1500: gml_Object_obj_CattoBoiDie_Step_0
+  1501: gml_Object_obj_CattoBoiDie_PreCreate_0
+  1502: gml_Object_obj_ScreenBreak_Create_0
+  1503: gml_Object_obj_ScreenBreak_Alarm_0
+  1504: gml_Object_obj_ScreenBreak_Alarm_1
+  1505: gml_Object_obj_ScreenBreak_Alarm_2
+  1506: gml_Object_obj_ScreenBreak_Alarm_3
+  1507: gml_Object_obj_ScreenBreak_Step_0
+  1508: gml_Object_obj_ScreenBreak_PreCreate_0
+  1509: gml_Object_obj_Pearl_Collision_obj_PlayerControl
+  1510: gml_Object_obj_Pearl_PreCreate_0
+  1511: gml_Object_obj_MouseLock_Step_0
+  1512: gml_Object_obj_MouseLock_PreCreate_0
+  1513: gml_Object_obj_Act5Dialog4_Draw_0
+  1514: gml_Object_obj_Act5Dialog4_PreCreate_0
+  1515: gml_Object_obj_ShakeTrigger_Collision_obj_PlayerControl
+  1516: gml_Object_obj_ShakeTrigger_PreCreate_0
+  1517: gml_Object_obj_Spook_Create_0
+  1518: gml_Object_obj_Spook_Alarm_0
+  1519: gml_Object_obj_Spook_PreCreate_0
+  1520: gml_Object_obj_DialogSpam_Create_0
+  1521: gml_Object_obj_DialogSpam_Alarm_0
+  1522: gml_Object_obj_DialogSpam_Alarm_1
+  1523: gml_Object_obj_DialogSpam_PreCreate_0
+  1524: gml_Object_obj_DialogTest_Create_0
+  1525: gml_Object_obj_DialogTest_Alarm_0
+  1526: gml_Object_obj_DialogTest_Other_63
+  1527: gml_Object_obj_DialogTest_PreCreate_0
+  1528: gml_Object_obj_CattoTitleFUCKED_Create_0
+  1529: gml_Object_obj_CattoTitleFUCKED_PreCreate_0
+  1530: gml_Object_obj_Act6Dialog2_Draw_0
+  1531: gml_Object_obj_Act6Dialog2_PreCreate_0
+  1532: gml_Object_obj_BigBoiDialog_Draw_0
+  1533: gml_Object_obj_BigBoiDialog_PreCreate_0
+  1534: gml_Object_obj_SprHands_PreCreate_0
+  1535: gml_Object_obj_Act3Dialog8_Draw_0
+  1536: gml_Object_obj_Act3Dialog8_PreCreate_0
+  1537: gml_Object_obj_Act3Dialog1_Draw_0
+  1538: gml_Object_obj_Act3Dialog1_PreCreate_0
+  1539: gml_Object_obj_LogoTitleFUCKED_Create_0
+  1540: gml_Object_obj_LogoTitleFUCKED_PreCreate_0
+  1541: gml_Object_obj_Understood_Create_0
+  1542: gml_Object_obj_Understood_Alarm_0
+  1543: gml_Object_obj_Understood_Alarm_1
+  1544: gml_Object_obj_Understood_PreCreate_0
+  1545: gml_Object_obj_Act6Dialog6_Draw_0
+  1546: gml_Object_obj_Act6Dialog6_PreCreate_0
+  1547: gml_Object_obj_Nug1_Create_0
+  1548: gml_Object_obj_Nug1_Collision_obj_PlayerControl
+  1549: gml_Object_obj_Nug1_PreCreate_0
+  1550: gml_Object_obj_BlackBoi2_Create_0
+  1551: gml_Object_obj_BlackBoi2_Alarm_0
+  1552: gml_Object_obj_BlackBoi2_Collision_obj_PlayerControl
+  1553: gml_Object_obj_BlackBoi2_Other_0
+  1554: gml_Object_obj_BlackBoi2_PreCreate_0
+  1555: gml_Object_obj_DialogAct5Control1_Create_0
+  1556: gml_Object_obj_DialogAct5Control1_Alarm_0
+  1557: gml_Object_obj_DialogAct5Control1_Alarm_1
+  1558: gml_Object_obj_DialogAct5Control1_Alarm_2
+  1559: gml_Object_obj_DialogAct5Control1_Alarm_3
+  1560: gml_Object_obj_DialogAct5Control1_PreCreate_0
+  1561: gml_Object_obj_Freeze_Create_0
+  1562: gml_Object_obj_Freeze_Alarm_0
+  1563: gml_Object_obj_Freeze_Step_0
+  1564: gml_Object_obj_Freeze_PreCreate_0
+  1565: gml_Object_obj_SpookyBoi_Create_0
+  1566: gml_Object_obj_SpookyBoi_Alarm_0
+  1567: gml_Object_obj_SpookyBoi_Step_0
+  1568: gml_Object_obj_SpookyBoi_PreCreate_0
+  1569: gml_Object_obj_AfterShake_Create_0
+  1570: gml_Object_obj_AfterShake_Alarm_0
+  1571: gml_Object_obj_AfterShake_Alarm_1
+  1572: gml_Object_obj_AfterShake_PreCreate_0
+  1573: gml_Object_obj_Act6Dialog09_Draw_0
+  1574: gml_Object_obj_Act6Dialog09_PreCreate_0
+  1575: gml_Object_obj_Act3Dialog3_Draw_0
+  1576: gml_Object_obj_Act3Dialog3_PreCreate_0
+  1577: gml_Object_obj_Died_Create_0
+  1578: gml_Object_obj_Died_Alarm_0
+  1579: gml_Object_obj_Died_Alarm_1
+  1580: gml_Object_obj_Died_Alarm_2
+  1581: gml_Object_obj_Died_PreCreate_0
+  1582: gml_Object_obj_Act5Dialog6_Draw_0
+  1583: gml_Object_obj_Act5Dialog6_PreCreate_0
+  1584: gml_Object_obj_DebugTitle_Create_0
+  1585: gml_Object_obj_DebugTitle_Draw_0
+  1586: gml_Object_obj_DebugTitle_PreCreate_0
+  1587: gml_Object_obj_MusicControl_Other_4
+  1588: gml_Object_obj_MusicControl_PreCreate_0
+  1589: gml_Object_obj_Revelation_Create_0
+  1590: gml_Object_obj_Revelation_Alarm_0
+  1591: gml_Object_obj_Revelation_PreCreate_0
+  1592: gml_Object_obj_Act3Dialog5_Draw_0
+  1593: gml_Object_obj_Act3Dialog5_PreCreate_0
+  1594: gml_Object_obj_PlayerControl_Create_0
+  1595: gml_Object_obj_PlayerControl_Step_0
+  1596: gml_Object_obj_PlayerControl_Collision_obj_Pit
+  1597: gml_Object_obj_PlayerControl_Other_4
+  1598: gml_Object_obj_PlayerControl_PreCreate_0
+  1599: gml_Object_obj_BigBoi_Create_0
+  1600: gml_Object_obj_BigBoi_PreCreate_0
+  1601: gml_Object_obj_HUD_Create_0
+  1602: gml_Object_obj_HUD_Draw_64
+  1603: gml_Object_obj_HUD_PreCreate_0
+  1604: gml_Object_obj_Act6Dialog07_Draw_0
+  1605: gml_Object_obj_Act6Dialog07_PreCreate_0
+  1606: gml_Object_obj_PlayerSpawn_Create_0
+  1607: gml_Object_obj_PlayerSpawn_Other_4
+  1608: gml_Object_obj_PlayerSpawn_PreCreate_0
+  1609: gml_Object_obj_CollisionBlock_PreCreate_0
+  1610: gml_Object_obj_Act5Dialog3_Draw_0
+  1611: gml_Object_obj_Act5Dialog3_PreCreate_0
+  1612: gml_Object_obj_Entity_Create_0
+  1613: gml_Object_obj_Entity_Alarm_0
+  1614: gml_Object_obj_Entity_Alarm_1
+  1615: gml_Object_obj_Entity_Alarm_2
+  1616: gml_Object_obj_Entity_PreCreate_0
+  1617: gml_Object_obj_Locked_Create_0
+  1618: gml_Object_obj_Locked_Draw_0
+  1619: gml_Object_obj_Locked_PreCreate_0
+  1620: gml_Object_obj_NeedMorePrompt_Draw_0
+  1621: gml_Object_obj_NeedMorePrompt_PreCreate_0
+  1622: gml_Object_obj_Ending_Create_0
+  1623: gml_Object_obj_Ending_Alarm_0
+  1624: gml_Object_obj_Ending_PreCreate_0
+  1625: gml_Object_obj_Act5Dialog1_Draw_0
+  1626: gml_Object_obj_Act5Dialog1_PreCreate_0
+  1627: gml_Object_obj_ChaseControl_Create_0
+  1628: gml_Object_obj_ChaseControl_Alarm_0
+  1629: gml_Object_obj_ChaseControl_PreCreate_0
+  1630: gml_Object_obj_DialogAct6Control2_Create_0
+  1631: gml_Object_obj_DialogAct6Control2_Alarm_0
+  1632: gml_Object_obj_DialogAct6Control2_Alarm_1
+  1633: gml_Object_obj_DialogAct6Control2_Alarm_2
+  1634: gml_Object_obj_DialogAct6Control2_Alarm_3
+  1635: gml_Object_obj_DialogAct6Control2_Alarm_4
+  1636: gml_Object_obj_DialogAct6Control2_Alarm_5
+  1637: gml_Object_obj_DialogAct6Control2_Alarm_6
+  1638: gml_Object_obj_DialogAct6Control2_Alarm_7
+  1639: gml_Object_obj_DialogAct6Control2_Alarm_8
+  1640: gml_Object_obj_DialogAct6Control2_Alarm_9
+  1641: gml_Object_obj_DialogAct6Control2_Alarm_10
+  1642: gml_Object_obj_DialogAct6Control2_Alarm_11
+  1643: gml_Object_obj_DialogAct6Control2_PreCreate_0
+  1644: gml_Object_obj_ToLoadScreen_Alarm_0
+  1645: gml_Object_obj_ToLoadScreen_Collision_obj_PlayerControl
+  1646: gml_Object_obj_ToLoadScreen_PreCreate_0
+  1647: gml_Object_obj_NextRoom_Alarm_0
+  1648: gml_Object_obj_NextRoom_Collision_obj_PlayerControl
+  1649: gml_Object_obj_NextRoom_PreCreate_0
+  1650: gml_Object_obj_CrashTrigger_Collision_obj_PlayerControl
+  1651: gml_Object_obj_CrashTrigger_PreCreate_0
+  1652: gml_Object_obj_Timer2_Create_0
+  1653: gml_Object_obj_Timer2_Alarm_0
+  1654: gml_Object_obj_Timer2_PreCreate_0
+  1655: gml_Object_obj_MouseFuck_Step_0
+  1656: gml_Object_obj_MouseFuck_PreCreate_0
+  1657: gml_Object_obj_NextRoomNoFade_Collision_obj_PlayerControl
+  1658: gml_Object_obj_NextRoomNoFade_PreCreate_0
+  1659: gml_Object_obj_CattoBoi_Create_0
+  1660: gml_Object_obj_CattoBoi_Alarm_0
+  1661: gml_Object_obj_CattoBoi_Step_0
+  1662: gml_Object_obj_CattoBoi_PreCreate_0
+  1663: gml_Object_obj_Act6Dialog3_Draw_0
+  1664: gml_Object_obj_Act6Dialog3_PreCreate_0
+  1665: gml_Object_obj_CattoBoiCrrupt_Create_0
+  1666: gml_Object_obj_CattoBoiCrrupt_Alarm_0
+  1667: gml_Object_obj_CattoBoiCrrupt_PreCreate_0
+  1668: gml_Object_obj_CattoBoiDead_Create_0
+  1669: gml_Object_obj_CattoBoiDead_Alarm_0
+  1670: gml_Object_obj_CattoBoiDead_PreCreate_0
+  1671: gml_Object_obj_Act1Menu_Create_0
+  1672: gml_Object_obj_Act1Menu_Step_0
+  1673: gml_Object_obj_Act1Menu_Draw_0
+  1674: gml_Object_obj_Act1Menu_PreCreate_0
+  1675: gml_Object_obj_CarefulHintCatto1_Draw_0
+  1676: gml_Object_obj_CarefulHintCatto1_PreCreate_0
+  1677: gml_Object_obj_GameOverText_Create_0
+  1678: gml_Object_obj_GameOverText_Draw_64
+  1679: gml_Object_obj_GameOverText_PreCreate_0
+  1680: gml_Object_obj_Act3Dialog2_Draw_0
+  1681: gml_Object_obj_Act3Dialog2_PreCreate_0
+  1682: gml_Object_obj_FadeIn_Create_0
+  1683: gml_Object_obj_FadeIn_Alarm_0
+  1684: gml_Object_obj_FadeIn_Step_0
+  1685: gml_Object_obj_FadeIn_Draw_64
+  1686: gml_Object_obj_FadeIn_PreCreate_0
+  1687: gml_Object_obj_FadeOut_Create_0
+  1688: gml_Object_obj_FadeOut_Alarm_0
+  1689: gml_Object_obj_FadeOut_Step_0
+  1690: gml_Object_obj_FadeOut_Draw_64
+  1691: gml_Object_obj_FadeOut_PreCreate_0
+  1692: gml_Object_par_Transitions_PreCreate_0
+  1693: gml_Object_obj_TitleMenuCatto2_Create_0
+  1694: gml_Object_obj_TitleMenuCatto2_Step_0
+  1695: gml_Object_obj_TitleMenuCatto2_Draw_0
+  1696: gml_Object_obj_TitleMenuCatto2_PreCreate_0
+  1697: gml_Object_obj_LoadingScreen_Create_0
+  1698: gml_Object_obj_LoadingScreen_Alarm_0
+  1699: gml_Object_obj_LoadingScreen_Draw_0
+  1700: gml_Object_obj_LoadingScreen_PreCreate_0
+  1701: gml_Object_obj_BigBoiCatto2_Create_0
+  1702: gml_Object_obj_BigBoiCatto2_PreCreate_0
+  1703: gml_Object_obj_Warning_Create_0
+  1704: gml_Object_obj_Warning_Draw_0
+  1705: gml_Object_obj_Warning_KeyPress_13
+  1706: gml_Object_obj_Warning_PreCreate_0
+  1707: gml_Object_obj_Act6Dialog08_Draw_0
+  1708: gml_Object_obj_Act6Dialog08_PreCreate_0
+  1709: gml_Object_obj_EnterMenu_Create_0
+  1710: gml_Object_obj_EnterMenu_Step_0
+  1711: gml_Object_obj_EnterMenu_Draw_64
+  1712: gml_Object_obj_EnterMenu_PreCreate_0
+  1713: gml_Object_obj_GlobalVarMenu_Create_0
+  1714: gml_Object_obj_GlobalVarMenu_Step_0
+  1715: gml_Object_obj_GlobalVarMenu_Draw_0
+  1716: gml_Object_obj_GlobalVarMenu_PreCreate_0
+  1717: gml_Object_obj_Biscuit_Collision_obj_PlayerControl
+  1718: gml_Object_obj_Biscuit_PreCreate_0
+  1719: gml_Object_Looking_at_these_files_huh_Create_0
+  1720: gml_Object_Looking_at_these_files_huh_PreCreate_0
+  1721: gml_Object_obj_Act6Dialog1_Draw_0
+  1722: gml_Object_obj_Act6Dialog1_PreCreate_0
+  1723: gml_Object_obj_Act5Dialog2_Draw_0
+  1724: gml_Object_obj_Act5Dialog2_PreCreate_0
+  1725: gml_Object_obj_Shrine_Draw_0
+  1726: gml_Object_obj_Shrine_PreCreate_0
+  1727: gml_Object_obj_BigBoiHelp_Draw_0
+  1728: gml_Object_obj_BigBoiHelp_PreCreate_0
+  1729: gml_Object_obj_BlackBoi_Create_0
+  1730: gml_Object_obj_BlackBoi_Alarm_0
+  1731: gml_Object_obj_BlackBoi_Collision_obj_PlayerControl
+  1732: gml_Object_obj_BlackBoi_Other_0
+  1733: gml_Object_obj_BlackBoi_PreCreate_0
+  1734: gml_Object_obj_Act6Dialog13_Draw_0
+  1735: gml_Object_obj_Act6Dialog13_PreCreate_0
+  1736: gml_Object_obj_LevelTitlePause_Create_0
+  1737: gml_Object_obj_LevelTitlePause_Draw_64
+  1738: gml_Object_obj_LevelTitlePause_PreCreate_0
+  1739: gml_Object_obj_ScreenShake_Create_0
+  1740: gml_Object_obj_ScreenShake_Alarm_0
+  1741: gml_Object_obj_ScreenShake_Step_0
+  1742: gml_Object_obj_ScreenShake_Draw_64
+  1743: gml_Object_obj_ScreenShake_PreCreate_0
+  1744: gml_Object_obj_GlobalVarTitle_Create_0
+  1745: gml_Object_obj_GlobalVarTitle_Draw_0
+  1746: gml_Object_obj_GlobalVarTitle_PreCreate_0
+  1747: gml_Object_obj_AfterNug2_Create_0
+  1748: gml_Object_obj_AfterNug2_Alarm_0
+  1749: gml_Object_obj_AfterNug2_Alarm_1
+  1750: gml_Object_obj_AfterNug2_PreCreate_0
+  1751: gml_Object_obj_Act3Dialog6_Draw_0
+  1752: gml_Object_obj_Act3Dialog6_PreCreate_0
+  1753: gml_Object_obj_Timer_Create_0
+  1754: gml_Object_obj_Timer_Alarm_0
+  1755: gml_Object_obj_Timer_PreCreate_0
+  1756: gml_Object_obj_Level4Trigger_Alarm_0
+  1757: gml_Object_obj_Level4Trigger_Alarm_1
+  1758: gml_Object_obj_Level4Trigger_Collision_obj_PlayerControl
+  1759: gml_Object_obj_Level4Trigger_PreCreate_0
+  1760: gml_Object_obj_CattoWakeUpDialog2_Draw_0
+  1761: gml_Object_obj_CattoWakeUpDialog2_PreCreate_0
+  1762: gml_Object_obj_Act1Title_Create_0
+  1763: gml_Object_obj_Act1Title_Draw_0
+  1764: gml_Object_obj_Act1Title_PreCreate_0
+  1765: gml_Object_obj_Act3Dialog7_Draw_0
+  1766: gml_Object_obj_Act3Dialog7_PreCreate_0
+  1767: gml_Object_obj_DialogAct3Control2_Create_0
+  1768: gml_Object_obj_DialogAct3Control2_Alarm_0
+  1769: gml_Object_obj_DialogAct3Control2_Alarm_1
+  1770: gml_Object_obj_DialogAct3Control2_Alarm_2
+  1771: gml_Object_obj_DialogAct3Control2_Alarm_3
+  1772: gml_Object_obj_DialogAct3Control2_Alarm_4
+  1773: gml_Object_obj_DialogAct3Control2_PreCreate_0
+  1774: gml_Object_obj_Act6Dialog4_Draw_0
+  1775: gml_Object_obj_Act6Dialog4_PreCreate_0
+  1776: gml_Object_obj_Act6Dialog15_Draw_0
+  1777: gml_Object_obj_Act6Dialog15_PreCreate_0
+  1778: gml_Object_obj_Black_Draw_64
+  1779: gml_Object_obj_Black_PreCreate_0
+  1780: gml_GlobalScript_0

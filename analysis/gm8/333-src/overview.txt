@@ -1,0 +1,31 @@
+== settings ==
+  fullscreen = 0
+  interpolate_pixels = 0
+  dont_draw_border = 0
+  display_cursor = 1
+  scaling = 4294967295
+  allow_resize = 0
+  window_on_top = 1
+  clear_colour = 0
+  set_resolution = 0
+  colour_depth = 0
+  resolution = 0
+  frequency = 0
+  dont_show_buttons = 0
+  vsync/cpu = 0
+  disable_screensaver = 1
+  f4_fullscreen = 0
+  f1_help = 0
+  esc_close = 0
+  f5_f6 = 0
+  f9_screenshot = 0
+  treat_close_as_esc = 0
+  priority = 2
+  freeze_on_lose_focus = 0
+  loading_bar = 0
+== game == pro=1 game_id=857117616
+triggers: 0 slots
+== included files ==
+  'creep.png' source_path='C:\Users\sirbo\Desktop\creepy.png' size=165257 embedded=True export=temp folder overwrite=False remove_at_end=True sha256=2bc937dbcd9563746d176305ff415a72012a810c805b7e17b2c1f26e38769d67
+== room order == 0
+objects: 1 (obj_MouseFuck)
